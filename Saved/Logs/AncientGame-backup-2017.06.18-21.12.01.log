@@ -1,0 +1,789 @@
+﻿Log file open, 06/18/17 17:26:55
+LogInit:Display: Running engine for game: AncientGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-762879025) SRandInit(-762879025).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.061139
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: E:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.18-11.56.56:666][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.18-11.56.56:666][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.18-11.56.56:728][  0]LogInit: Computer: DEMIGOD-PC
+[2017.06.18-11.56.56:728][  0]LogInit: User: Demigod
+[2017.06.18-11.56.56:728][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.06.18-11.56.56:728][  0]LogInit: High frequency timer resolution =2.825654 MHz
+[2017.06.18-11.56.56:728][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2017.06.18-11.56.56:728][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.18-11.56.56:728][  0]LogMemory: Process Physical Memory: 263.54 MB used, 263.54 MB peak
+[2017.06.18-11.56.56:728][  0]LogMemory: Process Virtual Memory: 263.82 MB used, 263.82 MB peak
+[2017.06.18-11.56.56:728][  0]LogMemory: Physical Memory: 2102.08 MB used,  1957.79 MB free, 4059.88 MB total
+[2017.06.18-11.56.56:728][  0]LogMemory: Virtual Memory: 632.62 MB used,  1957.79 MB free, 8388608.00 MB total
+[2017.06.18-11.56.56:857][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.18-11.56.57:769][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.18-11.56.57:797][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.06.18-11.56.57:797][  0]LogD3D11RHI:       4008/0/1773 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.18-11.56.57:797][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.18-11.56.57:802][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.18-11.56.57:802][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.18-11.56.57:802][  0]LogWindows: EnumDisplayDevices:
+[2017.06.18-11.56.57:802][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.06.18-11.56.57:802][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.18-11.56.57:802][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.18-11.56.57:802][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.18-11.56.57:803][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.06.18-11.56.57:803][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.06.18-11.56.57:803][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.06.18-11.56.57:803][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.06.18-11.56.57:803][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.06.18-11.56.57:803][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.18-11.56.57:803][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.18-11.56.57:803][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.18-11.56.57:815][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.18-11.56.57:831][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.18-11.56.57:878][  0]LogShaderCompilers: Guid format shader working directory is 27 characters bigger than the processId version (F:/Unreal/AncientGame/Intermediate/Shaders/WorkingDirectory/3016/).
+[2017.06.18-11.56.57:879][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Demigod/AppData/Local/Temp/UnrealShaderWorkingDir/6AB8A8CD42576DE198C6B7843AE0EB75/'.
+[2017.06.18-11.56.57:879][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.18-11.56.59:247][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.18-11.56.59:308][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.18-11.56.59:370][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.18-11.56.59:431][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.18-11.56.59:494][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.18-11.56.59:556][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.18-11.56.59:617][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.18-11.56.59:679][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.18-11.56.59:727][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.18-11.56.59:788][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.18-11.56.59:849][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.18-11.56.59:909][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.18-11.56.59:969][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.18-11.57.00:032][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.18-11.57.00:094][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.18-11.57.00:216][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.18-11.57.00:216][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.18-11.57.00:258][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.18-11.57.00:365][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.18-11.57.00:403][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.18-11.57.00:467][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.18-11.57.00:529][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.18-11.57.00:590][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.18-11.57.00:651][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.18-11.57.00:651][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.18-11.57.01:083][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.18-11.57.01:147][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Demigod/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.18-11.57.01:147][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Demigod/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.18-11.57.01:147][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Unreal/AncientGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.18-11.57.01:147][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.18-11.57.01:147][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Unreal/AncientGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.18-11.57.01:147][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.18-11.57.01:171][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.18-11.57.01:182][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Demigod/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.18-11.57.01:192][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.18-11.57.01:194][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.18-11.57.01:194][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.18-11.57.01:621][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.18-11.57.01:625][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.18-11.57.01:883][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.18-11.57.01:929][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.18-11.57.01:979][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.18-11.57.01:979][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.18-11.57.01:979][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.18-11.57.02:643][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: ancientgame, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 451849076
+[2017.06.18-11.57.02:687][  0]LogAssetRegistry: FAssetRegistry took 0.0204 seconds to start up
+[2017.06.18-11.57.02:755][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.050948 seconds
+[2017.06.18-11.57.02:762][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.06.18-11.57.02:762][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.06.18-11.57.02:762][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.18-11.57.02:816][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.18-11.57.05:152][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.18-11.57.05:187][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.18-11.57.05:683][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.18-11.57.06:097][  0]SourceControl: Info Source control is disabled
+[2017.06.18-11.57.06:136][  0]SourceControl: Info Source control is disabled
+[2017.06.18-11.57.06:184][  0]SourceControl: Info Source control is disabled
+[2017.06.18-11.57.06:236][  0]SourceControl: Info Source control is disabled
+[2017.06.18-11.57.07:562][  0]LogEngine: Initializing Engine...
+[2017.06.18-11.57.07:562][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.18-11.57.07:843][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.18-11.57.07:857][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-11.57.07:884][  0]LogInit: FAudioDevice initialized.
+[2017.06.18-11.57.07:918][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Demigod/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.18-11.57.07:924][  0]LogInit: Texture streaming: Enabled
+[2017.06.18-11.57.08:010][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.18-11.57.08:124][  0]LogInit: Transaction tracking system initialized
+[2017.06.18-11.57.08:474][  0]BlueprintLog: New page: Editor Load
+[2017.06.18-11.57.09:406][  0]LocalizationService: Info Localization service is disabled
+[2017.06.18-11.57.10:089][  0]LogConsoleResponse:Display: 
+[2017.06.18-11.57.10:284][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.18-11.57.10:284][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.18-11.57.11:276][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal/AncientGame/Content/' took 0.01s
+[2017.06.18-11.57.11:323][  0]SourceControl: Info Source control is disabled
+[2017.06.18-11.57.11:323][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.18-11.57.11:324][  0]LightingResults: New page: Lighting Build
+[2017.06.18-11.57.11:364][  0]MapCheck: New page: Map Check
+[2017.06.18-11.57.11:364][  0]LightingResults: New page: Lighting Build
+[2017.06.18-11.57.11:592][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.06.18-11.57.11:593][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.06.18-11.57.11:598][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.18-11.57.11:601][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.18-11.57.11:702][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.065ms to complete.
+[2017.06.18-11.57.11:702][  0]LogFileHelpers: Loading map 'Template_Default' took 0.378
+[2017.06.18-11.57.12:471][  0]LogCollectionManager: Loaded 0 collections in 0.002210 seconds
+[2017.06.18-11.57.12:680][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal/AncientGame/Saved/Collections/' took 0.01s
+[2017.06.18-11.57.12:680][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal/AncientGame/Content/Developers/Demigod/Collections/' took 0.01s
+[2017.06.18-11.57.12:680][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal/AncientGame/Content/Collections/' took 0.01s
+[2017.06.18-11.57.12:680][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.06.18-11.57.12:720][  0]LogContentBrowser: Native class hierarchy populated in 0.0205 seconds. Added 2251 classes and 452 folders.
+[2017.06.18-11.57.12:746][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.18-11.57.12:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.18-11.57.12:851][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.18-11.57.13:752][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.06.18-11.57.13:881][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.18-11.57.14:299][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.18-11.57.14:356][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.18-11.57.14:439][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.18-11.57.14:440][  0]LogLoad: (Engine Initialization) Total time: 20.64 seconds
+[2017.06.18-11.57.14:440][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2017.06.18-11.57.14:440][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.18-11.57.14:440][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.18-11.57.14:449][  0]LogOcInput: OculusInput pre-init called
+[2017.06.18-11.57.14:513][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.18-11.57.14:515][  0]LogSlate: Took 0.000889 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.18-11.57.14:523][  0]LogSlate: Took 0.001182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.18-11.57.14:551][  0]LogSlate: Took 0.007817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.18-11.57.14:990][  0]LogSlate: Took 0.014164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.18-11.57.15:082][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.06.18-11.57.15:324][  2]LogAssetRegistry: Asset discovery search completed in 12.6571 seconds
+[2017.06.18-11.57.15:324][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.06.18-11.57.15:324][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2017.06.18-12.00.59:386][713]Cmd: MAP LOAD FILE="F:/Unreal/AncientGame/Content/Maps/PlainOldSchool.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.18-12.00.59:445][713]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.18-12.00.59:471][713]LightingResults: New page: Lighting Build
+[2017.06.18-12.00.59:475][713]LoadErrors: New page: Loading map: PlainOldSchool.umap
+[2017.06.18-12.00.59:480][713]MapCheck: New page: Map Check
+[2017.06.18-12.00.59:480][713]LightingResults: New page: Lighting Build
+[2017.06.18-12.00.59:725][713]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-12.00.59:776][713]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.18-12.00.59:865][713]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.18-12.00.59:953][713]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.876ms to complete.
+[2017.06.18-12.00.59:953][713]LogFileHelpers: Loading map 'PlainOldSchool' took 0.571
+[2017.06.18-12.01.04:129][109]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-12.01.04:150][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-12.01.04:174][109]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 11:01:04 PM)
+[2017.06.18-12.01.04:180][109]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-12.01.04:197][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016851s)
+[2017.06.18-12.01.04:199][109]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-12.01.04:199][109]LogPlayLevel: PIE: World Init took: (0.001683s)
+[2017.06.18-12.01.04:199][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.025056s)
+[2017.06.18-12.01.04:234][109]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-12.01.04:243][109]LogInit: FAudioDevice initialized.
+[2017.06.18-12.01.06:321][109]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-12.01.06:365][109]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-17.31.06
+[2017.06.18-12.01.06:371][109]LogWorld: Bringing up level for play took: 0.006989
+[2017.06.18-12.01.06:507][109]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.06.18-12.01.06:507][109]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-12.01.06:508][109]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-12.01.06:508][109]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-12.01.06:669][109]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-12.01.06:669][109]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool 2.187
+[2017.06.18-12.01.41:389][365]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.18-12.01.41:708][365]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.06.18-12.01.43:311][365]LogSlate: Took 0.015609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.18-12.02.28:976][367]LogSlate: Took 0.008315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.18-12.02.34:920][706]LogSlate: Took 0.000982 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.18-12.04.04:397][736]LogSlate: Took 0.006817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.18-12.04.45:757][659]BlueprintLog: New page: Compile AG_Item
+[2017.06.18-12.04.46:746][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/AG_Item" FILE="F:/Unreal/AncientGame/Content/Items/AG_Item.uasset" SILENT=true
+[2017.06.18-12.04.46:872][695]LogSavePackage: Save=34.18ms
+[2017.06.18-12.04.46:872][695]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Item612A341040E1F4D1A1710ABF065B0BB3.tmp' to 'F:/Unreal/AncientGame/Content/Items/AG_Item.uasset'
+[2017.06.18-12.04.46:874][695]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Items/AG_Item.uasset
+[2017.06.18-12.07.15:911][236]LogSlate: Took 0.075249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.06.18-12.11.18:389][999]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlainOldSchool' took 0.040
+[2017.06.18-12.11.18:426][999]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Player/AG_Player_Widget] ([1] browsable assets)...
+[2017.06.18-12.11.18:426][999]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/AG_Player_Widget]
+[2017.06.18-12.11.18:427][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Player_Widget" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-12.11.18:480][999]LogSavePackage: Save=9.87ms
+[2017.06.18-12.11.18:480][999]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Player_Widget_Auto1E64FCFC04F7510A33FA8758E104979F8.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto1.uasset'
+[2017.06.18-12.11.18:513][999]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto1.uasset
+[2017.06.18-12.11.18:514][999]LogFileHelpers: Auto-saving content packages took 0.124
+[2017.06.18-12.11.23:544][352]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/Unreal/AncientGame/Import/Textures/chinese-food-icon-png-5.png)
+[2017.06.18-12.11.23:582][352]LogTexture:Display: Building textures: chinese-food-icon-png-5 (AutoDXT)
+[2017.06.18-12.11.24:999][451]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.18-12.11.49:738][439]BlueprintLog: New page: Compile AG_Item
+[2017.06.18-12.11.50:470][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/AG_Item" FILE="F:/Unreal/AncientGame/Content/Items/AG_Item.uasset" SILENT=true
+[2017.06.18-12.11.50:513][480]LogSavePackage: Save=31.11ms
+[2017.06.18-12.11.50:513][480]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Item65C633C74207B8DC6FBEB8B61E66F092.tmp' to 'F:/Unreal/AncientGame/Content/Items/AG_Item.uasset'
+[2017.06.18-12.11.50:514][480]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Items/AG_Item.uasset
+[2017.06.18-12.21.19:276][637]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlainOldSchool' took 0.041
+[2017.06.18-12.21.19:277][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/chinese-food-icon-png-5] ([1] browsable assets)...
+[2017.06.18-12.21.19:303][637]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/chinese-food-icon-png-5.chinese-food-icon-png-5]
+[2017.06.18-12.21.19:303][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/chinese-food-icon-png-5]
+[2017.06.18-12.21.19:303][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/chinese-food-icon-png-5" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Textures/chinese-food-icon-png-5_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-12.21.19:325][637]LogSavePackage: Save=20.15ms
+[2017.06.18-12.21.19:325][637]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/chinese-food-icon-png-5_Auto2FBA7E75B4312DA47BDD6CEBBAC42957E.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Textures/chinese-food-icon-png-5_Auto2.uasset'
+[2017.06.18-12.21.19:349][637]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Textures/chinese-food-icon-png-5_Auto2.uasset
+[2017.06.18-12.21.19:349][637]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Player/AG_Player_Widget] ([1] browsable assets)...
+[2017.06.18-12.21.19:349][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/AG_Player_Widget]
+[2017.06.18-12.21.19:349][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Player_Widget" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-12.21.19:390][637]LogSavePackage: Save=8.44ms
+[2017.06.18-12.21.19:390][637]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Player_Widget_Auto2F8610D3A4C605DF99B066EB8A820373E.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto2.uasset'
+[2017.06.18-12.21.19:391][637]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto2.uasset
+[2017.06.18-12.21.19:391][637]LogFileHelpers: Auto-saving content packages took 0.115
+[2017.06.18-12.25.53:954][658]Cmd: TRANSACTION UNDO
+[2017.06.18-12.25.53:955][658]LogEditorTransaction: Undo Move Widget
+[2017.06.18-12.25.59:644][901]Cmd: TRANSACTION UNDO
+[2017.06.18-12.25.59:644][901]LogEditorTransaction: Undo Edit Y
+[2017.06.18-12.26.43:361][776]LogEditorTransaction: Undo Set Vector Property
+[2017.06.18-12.26.47:953][979]LogEditorTransaction: Undo Edit X
+[2017.06.18-12.27.56:837][988]LogEditorTransaction: Undo Set Vector Property
+[2017.06.18-12.34.12:294][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_30.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:294][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_31.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:294][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_32.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:294][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_33.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:294][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_34.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:294][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_35.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:294][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_36.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:294][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_37.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:294][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_38.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:294][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_39.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:294][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_40.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:295][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_41.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:295][ 26]LogUObjectHash:Warning: Ambiguous search, could be ScrollBox /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54 or ScrollBox /Engine/Transient.World_15:AG_Player_Widget_C_42.WidgetTree.ScrollBox_54
+[2017.06.18-12.34.12:295][ 26]LogProperty:Warning: Illegal TEXT reference to a private object in external package (ScrollBoxSlot /Game/Player/Player/AG_Player_Widget.AG_Player_Widget:WidgetTree.ScrollBox_54.ScrollBoxSlot_1) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_10).  Import failed...
+[2017.06.18-12.34.12:295][ 26]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ScrollBoxSlot'ScrollBox_54.ScrollBoxSlot_1''
+[2017.06.18-12.37.34:548][620]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlainOldSchool' took 0.045
+[2017.06.18-12.37.34:550][620]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Player/AG_Player_Widget] ([1] browsable assets)...
+[2017.06.18-12.37.34:550][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/AG_Player_Widget]
+[2017.06.18-12.37.34:550][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Player_Widget" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-12.37.34:581][620]LogSavePackage: Save=10.67ms
+[2017.06.18-12.37.34:581][620]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Player_Widget_Auto31AF7F4F24500C8637434549397206800.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto3.uasset'
+[2017.06.18-12.37.34:581][620]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto3.uasset
+[2017.06.18-12.37.34:581][620]LogFileHelpers: Auto-saving content packages took 0.032
+[2017.06.18-12.49.19:204][793]BlueprintLog: New page: Compile AG_Player_Widget
+[2017.06.18-12.49.19:840][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Player_Widget" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Player_Widget.uasset" SILENT=true
+[2017.06.18-12.49.19:865][812]LogSavePackage: Save=12.25ms
+[2017.06.18-12.49.19:866][812]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Player_Widget115A267643F7835E3D73C289F081EB82.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Player_Widget.uasset'
+[2017.06.18-12.49.19:867][812]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Player_Widget.uasset
+[2017.06.18-12.49.23:646][ 93]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-12.49.23:674][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-12.49.23:674][ 93]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 11:49:23 PM)
+[2017.06.18-12.49.23:674][ 93]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-12.49.23:681][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006644s)
+[2017.06.18-12.49.23:681][ 93]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-12.49.23:681][ 93]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2017.06.18-12.49.23:682][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007651s)
+[2017.06.18-12.49.23:724][ 93]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-12.49.23:733][ 93]LogInit: FAudioDevice initialized.
+[2017.06.18-12.49.23:765][ 93]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-12.49.23:766][ 93]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-18.19.23
+[2017.06.18-12.49.23:767][ 93]LogWorld: Bringing up level for play took: 0.001245
+[2017.06.18-12.49.23:768][ 93]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-12.49.23:768][ 93]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-12.49.23:768][ 93]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-12.49.23:771][ 93]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-12.49.23:771][ 93]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool -0.754
+[2017.06.18-12.59.53:990][739]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0E7A
+[2017.06.18-12.59.53:997][739]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:093E
+[2017.06.18-12.59.53:997][739]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0953
+[2017.06.18-12.59.54:006][739]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0986
+[2017.06.18-12.59.54:006][739]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:099B
+[2017.06.18-12.59.54:006][739]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:09CD
+[2017.06.18-12.59.54:006][739]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0A2A
+[2017.06.18-12.59.54:006][739]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0A3F
+[2017.06.18-12.59.54:006][739]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0A87
+[2017.06.18-12.59.54:006][739]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0A9C
+[2017.06.18-12.59.54:006][739]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0ACF
+[2017.06.18-12.59.54:006][739]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0AE4
+[2017.06.18-12.59.54:006][739]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0C71
+[2017.06.18-12.59.54:006][739]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0C86
+[2017.06.18-12.59.54:007][739]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0E7A
+[2017.06.18-12.59.54:007][739]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:093E
+[2017.06.18-12.59.54:007][739]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_16:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0953
+[2017.06.18-13.00.50:800][183]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlainOldSchool' took 0.052
+[2017.06.18-13.00.50:823][183]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Player/AG_Player_Widget] ([1] browsable assets)...
+[2017.06.18-13.00.50:823][183]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/AG_Player_Widget]
+[2017.06.18-13.00.50:823][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Player_Widget" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-13.00.50:996][183]LogSavePackage: Save=46.13ms
+[2017.06.18-13.00.50:996][183]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Player_Widget_Auto480C833C34129926576883A8A9687D41C.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto4.uasset'
+[2017.06.18-13.00.51:028][183]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Player_Widget_Auto4.uasset
+[2017.06.18-13.00.51:028][183]LogFileHelpers: Auto-saving content packages took 0.226
+[2017.06.18-13.04.35:093][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Player_Widget" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Player_Widget.uasset" SILENT=true
+[2017.06.18-13.04.35:141][275]LogSavePackage: Save=12.41ms
+[2017.06.18-13.04.35:141][275]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Player_Widget3956B15A476DC809E8393CAB2F6895DC.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Player_Widget.uasset'
+[2017.06.18-13.04.35:142][275]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Player_Widget.uasset
+[2017.06.18-13.05.40:217][759]LogMetaData: Removing '/Game/Player/Player/AG_Widget_Inventory.SKEL_AG_Widget_Inventory_C' ref from Metadata '/Game/Player/Player/AG_Inventory.PackageMetaData'
+[2017.06.18-13.05.40:217][759]LogMetaData: Removing '/Game/Player/Player/AG_Widget_Inventory.AG_Widget_Inventory_C' ref from Metadata '/Game/Player/Player/AG_Inventory.PackageMetaData'
+[2017.06.18-13.05.40:217][759]LogMetaData: Removing '/Game/Player/Player/AG_Widget_Inventory.AG_Widget_Inventory:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Player/Player/AG_Inventory.PackageMetaData'
+[2017.06.18-13.05.40:217][759]LogMetaData: Removing '/Game/Player/Player/AG_Widget_Inventory.AG_Widget_Inventory:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Player/Player/AG_Inventory.PackageMetaData'
+[2017.06.18-13.05.40:270][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Widget_Inventory" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory.uasset" SILENT=true
+[2017.06.18-13.05.40:277][759]LogSavePackage: Save=5.23ms
+[2017.06.18-13.05.40:278][759]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Widget_Inventory8E3DF6A44205946CB7707DA909C58705.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory.uasset'
+[2017.06.18-13.05.40:279][759]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory.uasset
+[2017.06.18-13.06.20:878][299]BlueprintLog: New page: Compile AG_Widget_Inventory
+[2017.06.18-13.06.25:760][436]BlueprintLog: New page: Compile AG_Widget_Inventory
+[2017.06.18-13.06.26:722][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Widget_Inventory" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory.uasset" SILENT=true
+[2017.06.18-13.06.26:764][457]LogSavePackage: Save=6.25ms
+[2017.06.18-13.06.26:764][457]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Widget_Inventory215B43B541BADB05E8C2CEB8830C026D.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory.uasset'
+[2017.06.18-13.06.26:765][457]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory.uasset
+[2017.06.18-13.06.56:188][631]BlueprintLog: New page: Compile AG_Widget_Inventory_Item
+[2017.06.18-13.06.57:118][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Widget_Inventory_Item" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset" SILENT=true
+[2017.06.18-13.06.57:127][649]LogSavePackage: Save=8.06ms
+[2017.06.18-13.06.57:128][649]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Widget_Inventory_ItemF0B7096D4F7592DB219B9B9CD9870A84.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset'
+[2017.06.18-13.06.57:129][649]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset
+[2017.06.18-13.07.39:193][309]BlueprintLog: New page: Compile AG_Widget_Inventory_Item
+[2017.06.18-13.07.39:984][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Widget_Inventory_Item" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset" SILENT=true
+[2017.06.18-13.07.40:007][324]LogSavePackage: Save=10.23ms
+[2017.06.18-13.07.40:007][324]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Widget_Inventory_Item01C1829141F4500CC9DFD5B2A642C29F.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset'
+[2017.06.18-13.07.40:008][324]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset
+[2017.06.18-13.08.28:449][ 45]BlueprintLog: New page: Compile AG_Widget_Inventory_Item
+[2017.06.18-13.08.29:381][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Widget_Inventory_Item" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset" SILENT=true
+[2017.06.18-13.08.29:408][ 62]LogSavePackage: Save=14.78ms
+[2017.06.18-13.08.29:408][ 62]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Widget_Inventory_Item559478B04BFD54B359DFD9AEE0DFA36E.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset'
+[2017.06.18-13.08.29:409][ 62]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset
+[2017.06.18-13.10.51:775][698]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlainOldSchool' took 0.050
+[2017.06.18-13.10.51:777][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Inventory" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Inventory_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-13.10.51:781][698]LogSavePackage: Save=1.19ms
+[2017.06.18-13.10.51:781][698]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Inventory_Auto5B4F72D204EE3DFC08BFE3C87BBE7F3D2.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Inventory_Auto5.uasset'
+[2017.06.18-13.10.51:782][698]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Inventory_Auto5.uasset
+[2017.06.18-13.10.51:782][698]LogFileHelpers: Auto-saving content packages took 0.005
+[2017.06.18-13.17.49:459][339]BlueprintLog: New page: Compile AG_PC_Player
+[2017.06.18-13.17.50:719][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_PC_Player" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset" SILENT=true
+[2017.06.18-13.17.50:940][358]LogSavePackage: Save=138.78ms
+[2017.06.18-13.17.50:940][358]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_PC_PlayerB6D2EC47491BFB362DA3AB8046B5EC3D.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset'
+[2017.06.18-13.17.50:942][358]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset
+[2017.06.18-13.19.40:274][269]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.18-13.20.53:547][415]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlainOldSchool' took 0.049
+[2017.06.18-13.20.53:548][415]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Player/AG_PC_Player] ([1] browsable assets)...
+[2017.06.18-13.20.53:548][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/AG_PC_Player]
+[2017.06.18-13.20.53:548][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_PC_Player" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_PC_Player_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-13.20.53:681][415]LogSavePackage: Save=119.20ms
+[2017.06.18-13.20.53:681][415]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_PC_Player_Auto6DC937A1648FE7D4D9EAAF8B067521E67.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_PC_Player_Auto6.uasset'
+[2017.06.18-13.20.53:727][415]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_PC_Player_Auto6.uasset
+[2017.06.18-13.20.53:728][415]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Player/AG_Widget_Inventory_Item] ([1] browsable assets)...
+[2017.06.18-13.20.53:728][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/AG_Widget_Inventory_Item]
+[2017.06.18-13.20.53:767][415]LogSavePackage: Save=14.73ms
+[2017.06.18-13.20.53:767][415]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Widget_Inventory_Item_Auto6FAD8D07847763C718F4E5AACB2B2CDEB.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Widget_Inventory_Item_Auto6.uasset'
+[2017.06.18-13.20.53:767][415]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Widget_Inventory_Item_Auto6.uasset
+[2017.06.18-13.20.53:767][415]LogFileHelpers: Auto-saving content packages took 0.220
+[2017.06.18-13.22.16:766][880]BlueprintLog: New page: Compile AG_PC_Player
+[2017.06.18-13.22.18:272][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_PC_Player" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset" SILENT=true
+[2017.06.18-13.22.18:431][908]LogSavePackage: Save=122.61ms
+[2017.06.18-13.22.18:431][908]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_PC_Player89DC0A324E3A33BAEF0F0EA1EB64D66F.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset'
+[2017.06.18-13.22.18:433][908]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset
+[2017.06.18-13.22.21:360][ 87]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-13.22.21:409][ 87]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.18-13.22.21:410][ 87]LogPlayLevel: [PlayLevel] Compiling AG_Player_Widget before play...
+[2017.06.18-13.22.21:600][ 87]LogPlayLevel: [PlayLevel] Compiling AG_Widget_Inventory_Item before play...
+[2017.06.18-13.22.21:821][ 87]LogPlayLevel: PlayLevel: Blueprint regeneration took 411 ms (2 blueprints)
+[2017.06.18-13.22.21:860][ 87]PIE: New page: PIE session: PlainOldSchool (Jun 19, 2017, 12:22:21 AM)
+[2017.06.18-13.22.21:860][ 87]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-13.22.21:963][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102746s)
+[2017.06.18-13.22.21:963][ 87]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-13.22.21:993][ 87]LogPlayLevel: PIE: World Init took: (0.030732s)
+[2017.06.18-13.22.21:994][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.133861s)
+[2017.06.18-13.22.22:054][ 87]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-13.22.22:064][ 87]LogInit: FAudioDevice initialized.
+[2017.06.18-13.22.22:248][ 87]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-13.22.22:258][ 87]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-18.52.22
+[2017.06.18-13.22.22:258][ 87]LogWorld: Bringing up level for play took: 0.009298
+[2017.06.18-13.22.22:324][ 87]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-13.22.22:325][ 87]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-13.22.22:325][ 87]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-13.22.22:380][ 87]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-13.22.22:380][ 87]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool 1.826
+[2017.06.18-13.22.57:879][508]BlueprintLog: New page: Compile AG_PC_Player
+[2017.06.18-13.22.58:954][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_PC_Player" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset" SILENT=true
+[2017.06.18-13.22.59:114][511]LogSavePackage: Save=147.68ms
+[2017.06.18-13.22.59:114][511]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_PC_PlayerAFD94C0D48F7DB13694BB6B50CAC6E4B.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset'
+[2017.06.18-13.22.59:116][511]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset
+[2017.06.18-13.23.01:143][655]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-13.23.01:181][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-13.23.01:181][655]PIE: New page: PIE session: PlainOldSchool (Jun 19, 2017, 12:23:01 AM)
+[2017.06.18-13.23.01:181][655]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-13.23.01:187][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006444s)
+[2017.06.18-13.23.01:188][655]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-13.23.01:188][655]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2017.06.18-13.23.01:188][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007462s)
+[2017.06.18-13.23.01:237][655]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-13.23.01:245][655]LogInit: FAudioDevice initialized.
+[2017.06.18-13.23.01:276][655]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-13.23.01:278][655]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-18.53.01
+[2017.06.18-13.23.01:278][655]LogWorld: Bringing up level for play took: 0.001300
+[2017.06.18-13.23.01:279][655]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-13.23.01:279][655]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-13.23.01:279][655]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-13.23.01:282][655]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-13.23.01:282][655]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool 0.728
+[2017.06.18-13.23.11:169][650]LogBlueprintUserMessages: [AG_Widget_Inventory_Item_C_14] Text Block
+[2017.06.18-13.23.11:824][718]LogBlueprintUserMessages: [AG_Widget_Inventory_Item_C_14] Text Block
+[2017.06.18-13.23.12:006][737]LogBlueprintUserMessages: [AG_Widget_Inventory_Item_C_14] Text Block
+[2017.06.18-13.23.12:184][755]LogBlueprintUserMessages: [AG_Widget_Inventory_Item_C_14] Text Block
+[2017.06.18-13.23.12:352][772]LogBlueprintUserMessages: [AG_Widget_Inventory_Item_C_14] Text Block
+[2017.06.18-13.23.27:205][692]BlueprintLog: New page: Compile AG_PC_Player
+[2017.06.18-13.23.28:518][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_PC_Player" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset" SILENT=true
+[2017.06.18-13.23.28:648][707]LogSavePackage: Save=118.14ms
+[2017.06.18-13.23.28:648][707]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_PC_Player8D42B7094BC91E9957A2F1869C0DF880.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset'
+[2017.06.18-13.23.28:649][707]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset
+[2017.06.18-13.24.59:795][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.18-13.24.59:872][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.18-13.24.59:974][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.18-13.25.02:313][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Inventory" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Inventory.uasset" SILENT=true
+[2017.06.18-13.25.02:317][ 95]LogSavePackage: Save=1.17ms
+[2017.06.18-13.25.02:317][ 95]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Inventory7F6728334AFA7A6AA288FA99BD0E606E.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Inventory.uasset'
+[2017.06.18-13.25.02:318][ 95]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Inventory.uasset
+[2017.06.18-13.25.02:330][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Widget_Inventory_Item" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset" SILENT=true
+[2017.06.18-13.25.02:370][ 95]LogSavePackage: Save=11.71ms
+[2017.06.18-13.25.02:370][ 95]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Widget_Inventory_Item549BBFAE4088199BB6656788EB78BEBC.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset'
+[2017.06.18-13.25.02:372][ 95]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Widget_Inventory_Item.uasset
+[2017.06.18-13.25.02:416][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/chinese-food-icon-png-5" FILE="F:/Unreal/AncientGame/Content/Textures/chinese-food-icon-png-5.uasset" SILENT=true
+[2017.06.18-13.25.02:452][ 95]LogSavePackage: Save=34.66ms
+[2017.06.18-13.25.02:452][ 95]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/chinese-food-icon-png-57450F3AE4304F365B2B0CEA8AFCC8CB4.tmp' to 'F:/Unreal/AncientGame/Content/Textures/chinese-food-icon-png-5.uasset'
+[2017.06.18-13.25.02:453][ 95]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Textures/chinese-food-icon-png-5.uasset
+[2017.06.18-13.25.02:860][ 96]Cmd: QUIT_EDITOR
+[2017.06.18-13.25.03:282][ 96]LogExit: Preparing to exit.
+[2017.06.18-13.25.04:845][ 96]LogExit: Editor shut down
+[2017.06.18-13.25.04:846][ 96]LogExit: Transaction tracking system shut down
+[2017.06.18-13.25.06:045][ 96]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.18-13.25.06:051][ 96]LogExit: Object subsystem successfully closed.
+[2017.06.18-13.25.06:240][ 96]LogD3D11RHI: Shutdown
+[2017.06.18-13.25.06:240][ 96]LogD3D11RHI: CleanupD3DDevice
+[2017.06.18-13.25.06:481][ 96]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.18-13.25.07:201][ 96]LogModuleManager: Shutting down and abandoning module TextureEditor (508)
+[2017.06.18-13.25.07:201][ 96]LogModuleManager: Shutting down and abandoning module SequencerWidgets (506)
+[2017.06.18-13.25.07:201][ 96]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.06.18-13.25.07:201][ 96]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.06.18-13.25.07:212][ 96]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.06.18-13.25.07:212][ 96]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.06.18-13.25.07:220][ 96]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.06.18-13.25.07:220][ 96]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.06.18-13.25.07:220][ 96]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.06.18-13.25.07:239][ 96]LogDirectoryWatcher: A directory notification for 'E:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.18-13.25.07:245][ 96]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.06.18-13.25.07:245][ 96]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.06.18-13.25.07:245][ 96]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.06.18-13.25.07:252][ 96]LogDirectoryWatcher: A directory notification for 'F:/Unreal/AncientGame/Content/Collections/' was aborted.
+[2017.06.18-13.25.07:252][ 96]LogDirectoryWatcher: A directory notification for 'F:/Unreal/AncientGame/Content/Developers/Demigod/Collections/' was aborted.
+[2017.06.18-13.25.07:252][ 96]LogDirectoryWatcher: A directory notification for 'F:/Unreal/AncientGame/Saved/Collections/' was aborted.
+[2017.06.18-13.25.07:252][ 96]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.06.18-13.25.07:259][ 96]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.06.18-13.25.07:259][ 96]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.06.18-13.25.07:270][ 96]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.06.18-13.25.07:270][ 96]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.06.18-13.25.07:270][ 96]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.06.18-13.25.07:270][ 96]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.06.18-13.25.07:270][ 96]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.06.18-13.25.07:277][ 96]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.06.18-13.25.07:281][ 96]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.06.18-13.25.07:289][ 96]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.06.18-13.25.07:301][ 96]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.06.18-13.25.07:308][ 96]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.06.18-13.25.07:338][ 96]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.06.18-13.25.07:353][ 96]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.06.18-13.25.07:398][ 96]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.06.18-13.25.07:398][ 96]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.06.18-13.25.07:398][ 96]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.06.18-13.25.07:398][ 96]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.06.18-13.25.07:398][ 96]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.06.18-13.25.07:415][ 96]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.06.18-13.25.07:415][ 96]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.06.18-13.25.07:438][ 96]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.06.18-13.25.07:438][ 96]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.06.18-13.25.07:438][ 96]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.06.18-13.25.07:438][ 96]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.06.18-13.25.07:445][ 96]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.06.18-13.25.08:049][ 96]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.06.18-13.25.08:049][ 96]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.06.18-13.25.08:049][ 96]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.06.18-13.25.08:049][ 96]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.06.18-13.25.08:095][ 96]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.06.18-13.25.08:101][ 96]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.06.18-13.25.08:104][ 96]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.06.18-13.25.08:115][ 96]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.06.18-13.25.08:115][ 96]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.06.18-13.25.08:122][ 96]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.06.18-13.25.08:127][ 96]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.06.18-13.25.08:137][ 96]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.06.18-13.25.08:146][ 96]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.06.18-13.25.08:158][ 96]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.06.18-13.25.08:158][ 96]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.06.18-13.25.08:168][ 96]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.06.18-13.25.08:174][ 96]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.06.18-13.25.08:174][ 96]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.06.18-13.25.08:174][ 96]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.06.18-13.25.08:181][ 96]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.06.18-13.25.08:196][ 96]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.06.18-13.25.08:206][ 96]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.06.18-13.25.08:216][ 96]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.06.18-13.25.08:225][ 96]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.06.18-13.25.08:246][ 96]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.06.18-13.25.08:294][ 96]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.06.18-13.25.08:314][ 96]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.06.18-13.25.08:332][ 96]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.06.18-13.25.08:350][ 96]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.06.18-13.25.08:350][ 96]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.06.18-13.25.08:358][ 96]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.06.18-13.25.08:358][ 96]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.06.18-13.25.08:378][ 96]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.06.18-13.25.08:378][ 96]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.06.18-13.25.08:397][ 96]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.06.18-13.25.08:397][ 96]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.06.18-13.25.08:400][ 96]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.06.18-13.25.08:405][ 96]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.06.18-13.25.08:416][ 96]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.06.18-13.25.08:416][ 96]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.06.18-13.25.08:416][ 96]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.06.18-13.25.08:420][ 96]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.06.18-13.25.08:420][ 96]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.06.18-13.25.08:420][ 96]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.06.18-13.25.08:420][ 96]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.06.18-13.25.08:420][ 96]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.06.18-13.25.08:420][ 96]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.06.18-13.25.08:420][ 96]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.06.18-13.25.08:420][ 96]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.06.18-13.25.08:439][ 96]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.06.18-13.25.08:439][ 96]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.06.18-13.25.08:439][ 96]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.06.18-13.25.08:538][ 96]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.06.18-13.25.08:554][ 96]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.06.18-13.25.08:554][ 96]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.06.18-13.25.08:554][ 96]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.06.18-13.25.08:554][ 96]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.06.18-13.25.08:562][ 96]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.06.18-13.25.08:562][ 96]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.06.18-13.25.08:562][ 96]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.06.18-13.25.08:562][ 96]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.06.18-13.25.08:562][ 96]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.06.18-13.25.08:572][ 96]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.06.18-13.25.08:572][ 96]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.06.18-13.25.08:607][ 96]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.06.18-13.25.08:607][ 96]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.06.18-13.25.08:619][ 96]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.06.18-13.25.08:619][ 96]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.06.18-13.25.08:629][ 96]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.06.18-13.25.08:629][ 96]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.06.18-13.25.08:629][ 96]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.06.18-13.25.08:629][ 96]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.06.18-13.25.08:629][ 96]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.06.18-13.25.08:649][ 96]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.06.18-13.25.08:660][ 96]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.06.18-13.25.08:660][ 96]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.06.18-13.25.08:660][ 96]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.06.18-13.25.08:668][ 96]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.06.18-13.25.08:668][ 96]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.06.18-13.25.08:682][ 96]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.06.18-13.25.08:705][ 96]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.06.18-13.25.08:715][ 96]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.06.18-13.25.08:724][ 96]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.06.18-13.25.08:724][ 96]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.06.18-13.25.08:724][ 96]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.06.18-13.25.08:724][ 96]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.06.18-13.25.08:736][ 96]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.06.18-13.25.08:745][ 96]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.06.18-13.25.08:764][ 96]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.06.18-13.25.08:778][ 96]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.06.18-13.25.08:778][ 96]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.06.18-13.25.08:818][ 96]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.06.18-13.25.08:818][ 96]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.06.18-13.25.08:836][ 96]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.06.18-13.25.08:836][ 96]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.06.18-13.25.08:836][ 96]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.06.18-13.25.08:936][ 96]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.06.18-13.25.09:040][ 96]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.06.18-13.25.09:066][ 96]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.06.18-13.25.09:077][ 96]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.06.18-13.25.09:077][ 96]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.06.18-13.25.09:077][ 96]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.06.18-13.25.09:085][ 96]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.06.18-13.25.09:093][ 96]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.06.18-13.25.09:104][ 96]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.06.18-13.25.09:104][ 96]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.06.18-13.25.09:104][ 96]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.06.18-13.25.09:113][ 96]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (192)
+[2017.06.18-13.25.09:117][ 96]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.06.18-13.25.09:118][ 96]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.06.18-13.25.09:118][ 96]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.06.18-13.25.09:146][ 96]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.06.18-13.25.09:146][ 96]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.06.18-13.25.09:161][ 96]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.06.18-13.25.09:161][ 96]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.06.18-13.25.09:161][ 96]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.06.18-13.25.09:161][ 96]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.06.18-13.25.09:184][ 96]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.06.18-13.25.09:184][ 96]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.06.18-13.25.09:184][ 96]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.06.18-13.25.09:210][ 96]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.06.18-13.25.09:210][ 96]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.06.18-13.25.09:229][ 96]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.06.18-13.25.09:229][ 96]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.06.18-13.25.09:229][ 96]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.06.18-13.25.09:229][ 96]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.06.18-13.25.09:230][ 96]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.06.18-13.25.09:230][ 96]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.06.18-13.25.09:475][ 96]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.18-13.25.09:475][ 96]LogDirectoryWatcher: A directory notification for 'F:/Unreal/AncientGame/Content/' was aborted.
+[2017.06.18-13.25.09:475][ 96]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.18-13.25.09:497][ 96]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.06.18-13.25.09:497][ 96]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.06.18-13.25.09:497][ 96]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.06.18-13.25.09:497][ 96]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.06.18-13.25.09:510][ 96]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.06.18-13.25.09:521][ 96]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.06.18-13.25.09:521][ 96]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.06.18-13.25.09:532][ 96]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.06.18-13.25.09:545][ 96]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.06.18-13.25.09:573][ 96]LogDerivedDataCache: Shutdown
+[2017.06.18-13.25.09:573][ 96]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.06.18-13.25.09:581][ 96]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.06.18-13.25.09:585][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.06.18-13.25.09:591][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.06.18-13.25.09:595][ 96]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.06.18-13.25.09:604][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.06.18-13.25.09:604][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.06.18-13.25.09:604][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.06.18-13.25.09:604][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.06.18-13.25.09:613][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.06.18-13.25.09:613][ 96]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.06.18-13.25.09:613][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.06.18-13.25.09:613][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.06.18-13.25.09:624][ 96]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.06.18-13.25.09:637][ 96]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.18-13.25.09:638][ 96]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.18-13.25.09:638][ 96]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.18-13.25.09:638][ 96]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.18-13.25.09:654][ 96]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.18-13.25.09:677][ 96]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.18-13.25.09:685][ 96]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.18-13.25.09:685][ 96]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B86D14429-4765-DD97-7CF5-01BD0E5546C7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=224389a8446276377c334a9fae284dd9%7Cdec2ad3a27214d31ab4ddb53d31c27e2%7C6b94cbee-0175-4c3a-94dd-08bafa0c491f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.18-13.25.09:722][ 96]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.18-13.25.09:756][ 96]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.18-13.25.09:773][ 96]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.18-13.25.09:774][ 96]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.18-13.25.09:780][ 96]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.18-13.25.09:780][ 96]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.18-13.25.09:808][ 96]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.18-13.25.09:817][ 96]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.18-13.25.09:817][ 96]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.18-13.25.09:817][ 96]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.18-13.25.09:817][ 96]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.18-13.25.09:817][ 96]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.18-13.25.09:817][ 96]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.18-13.25.09:825][ 96]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.18-13.25.09:828][ 96]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.18-13.25.09:828][ 96]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.18-13.25.09:870][ 96]LogExit: Exiting.
+[2017.06.18-13.25.09:922][ 96]Log file closed, 06/18/17 18:55:09

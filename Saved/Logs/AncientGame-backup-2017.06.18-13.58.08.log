@@ -1,0 +1,1447 @@
+﻿Log file open, 06/18/17 09:21:00
+LogInit:Display: Running engine for game: AncientGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1537768117) SRandInit(-1537768117).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.063023
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: E:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.18-03.51.02:334][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.18-03.51.02:334][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.18-03.51.02:359][  0]LogInit: Computer: DEMIGOD-PC
+[2017.06.18-03.51.02:359][  0]LogInit: User: Demigod
+[2017.06.18-03.51.02:359][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.06.18-03.51.02:359][  0]LogInit: High frequency timer resolution =2.825654 MHz
+[2017.06.18-03.51.02:359][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2017.06.18-03.51.02:359][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.18-03.51.02:359][  0]LogMemory: Process Physical Memory: 263.45 MB used, 263.45 MB peak
+[2017.06.18-03.51.02:359][  0]LogMemory: Process Virtual Memory: 263.82 MB used, 263.82 MB peak
+[2017.06.18-03.51.02:359][  0]LogMemory: Physical Memory: 2375.55 MB used,  1684.32 MB free, 4059.88 MB total
+[2017.06.18-03.51.02:359][  0]LogMemory: Virtual Memory: 632.62 MB used,  1684.32 MB free, 8388608.00 MB total
+[2017.06.18-03.51.02:480][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.18-03.51.03:456][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.18-03.51.03:484][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.06.18-03.51.03:484][  0]LogD3D11RHI:       4008/0/1773 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.18-03.51.03:484][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.18-03.51.03:489][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.18-03.51.03:489][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.18-03.51.03:489][  0]LogWindows: EnumDisplayDevices:
+[2017.06.18-03.51.03:489][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.06.18-03.51.03:489][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.18-03.51.03:489][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.18-03.51.03:489][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.18-03.51.03:489][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.06.18-03.51.03:490][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.06.18-03.51.03:490][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.06.18-03.51.03:490][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.06.18-03.51.03:490][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.06.18-03.51.03:490][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.18-03.51.03:490][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.18-03.51.03:490][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.18-03.51.03:502][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.18-03.51.03:518][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.18-03.51.03:566][  0]LogShaderCompilers: Guid format shader working directory is 27 characters bigger than the processId version (F:/Unreal/AncientGame/Intermediate/Shaders/WorkingDirectory/5692/).
+[2017.06.18-03.51.03:566][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Demigod/AppData/Local/Temp/UnrealShaderWorkingDir/B92CF3EA4BC07CEDAC0FD0AACE7767ED/'.
+[2017.06.18-03.51.03:566][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.18-03.51.05:142][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.18-03.51.05:208][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.18-03.51.05:273][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.18-03.51.05:337][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.18-03.51.05:402][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.18-03.51.05:465][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.18-03.51.05:529][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.18-03.51.05:592][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.18-03.51.05:641][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.18-03.51.05:703][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.18-03.51.05:765][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.18-03.51.05:827][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.18-03.51.05:890][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.18-03.51.05:952][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.18-03.51.06:014][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.18-03.51.06:138][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.18-03.51.06:138][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.18-03.51.06:178][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.18-03.51.06:284][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.18-03.51.06:323][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.18-03.51.06:385][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.18-03.51.06:448][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.18-03.51.06:510][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.18-03.51.06:573][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.18-03.51.06:573][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.18-03.51.07:011][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.18-03.51.07:071][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Demigod/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.18-03.51.07:071][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Demigod/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.18-03.51.07:071][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Unreal/AncientGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.18-03.51.07:071][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.18-03.51.07:071][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Unreal/AncientGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.18-03.51.07:071][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.18-03.51.07:095][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.18-03.51.07:107][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Demigod/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.18-03.51.07:117][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.18-03.51.07:119][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.18-03.51.07:120][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.18-03.51.07:553][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.18-03.51.07:557][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.18-03.51.07:804][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.18-03.51.07:851][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.18-03.51.07:899][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.18-03.51.07:899][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.18-03.51.07:899][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.18-03.51.08:580][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: ancientgame, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 451849076
+[2017.06.18-03.51.08:625][  0]LogAssetRegistry: FAssetRegistry took 0.0202 seconds to start up
+[2017.06.18-03.51.08:666][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.023429 seconds
+[2017.06.18-03.51.08:674][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.06.18-03.51.08:674][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.06.18-03.51.08:674][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.18-03.51.08:729][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.18-03.51.11:140][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.18-03.51.11:177][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.18-03.51.11:822][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.18-03.51.12:244][  0]SourceControl: Info Source control is disabled
+[2017.06.18-03.51.12:283][  0]SourceControl: Info Source control is disabled
+[2017.06.18-03.51.12:332][  0]SourceControl: Info Source control is disabled
+[2017.06.18-03.51.12:381][  0]SourceControl: Info Source control is disabled
+[2017.06.18-03.51.13:754][  0]LogEngine: Initializing Engine...
+[2017.06.18-03.51.13:755][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.18-03.51.14:047][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.18-03.51.14:061][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-03.51.14:088][  0]LogInit: FAudioDevice initialized.
+[2017.06.18-03.51.14:122][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Demigod/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.18-03.51.14:129][  0]LogInit: Texture streaming: Enabled
+[2017.06.18-03.51.14:220][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.18-03.51.14:317][  0]LogInit: Transaction tracking system initialized
+[2017.06.18-03.51.14:679][  0]BlueprintLog: New page: Editor Load
+[2017.06.18-03.51.15:649][  0]LocalizationService: Info Localization service is disabled
+[2017.06.18-03.51.16:360][  0]LogConsoleResponse:Display: 
+[2017.06.18-03.51.16:557][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.18-03.51.16:557][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.18-03.51.16:698][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal/AncientGame/Content/' took 0.01s
+[2017.06.18-03.51.17:640][  0]SourceControl: Info Source control is disabled
+[2017.06.18-03.51.17:640][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.18-03.51.17:641][  0]LightingResults: New page: Lighting Build
+[2017.06.18-03.51.17:683][  0]MapCheck: New page: Map Check
+[2017.06.18-03.51.17:683][  0]LightingResults: New page: Lighting Build
+[2017.06.18-03.51.17:919][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.06.18-03.51.17:919][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.06.18-03.51.17:926][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.18-03.51.17:930][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.18-03.51.18:033][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 103.575ms to complete.
+[2017.06.18-03.51.18:033][  0]LogFileHelpers: Loading map 'Template_Default' took 0.393
+[2017.06.18-03.51.18:371][  0]LogCollectionManager: Loaded 0 collections in 0.002784 seconds
+[2017.06.18-03.51.18:544][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal/AncientGame/Saved/Collections/' took 0.01s
+[2017.06.18-03.51.18:544][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal/AncientGame/Content/Developers/Demigod/Collections/' took 0.01s
+[2017.06.18-03.51.18:544][  0]LogFileCache: Scanning file cache for directory 'F:/Unreal/AncientGame/Content/Collections/' took 0.01s
+[2017.06.18-03.51.18:544][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.18-03.51.18:566][  0]LogContentBrowser: Native class hierarchy populated in 0.0196 seconds. Added 2251 classes and 452 folders.
+[2017.06.18-03.51.18:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.18-03.51.18:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.18-03.51.18:674][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.18-03.51.19:589][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.06.18-03.51.19:727][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.18-03.51.19:835][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.18-03.51.19:872][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.18-03.51.19:959][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.18-03.51.19:960][  0]LogLoad: (Engine Initialization) Total time: 20.64 seconds
+[2017.06.18-03.51.19:960][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.06.18-03.51.19:960][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.18-03.51.19:960][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.18-03.51.19:969][  0]LogOcInput: OculusInput pre-init called
+[2017.06.18-03.51.20:011][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.18-03.51.20:013][  0]LogSlate: Took 0.000763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.18-03.51.20:018][  0]LogSlate: Took 0.000756 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.18-03.51.20:080][  0]LogSlate: Took 0.054882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.18-03.51.20:376][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.06.18-03.51.20:702][  2]LogAssetRegistry: Asset discovery search completed in 12.0968 seconds
+[2017.06.18-03.51.20:702][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.06.18-03.51.20:702][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2017.06.18-03.51.20:780][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.18-03.51.22:178][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.18-03.51.23:021][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.18-03.51.24:418][245]LogSlate: Took 0.013402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.18-03.51.26:488][390]Cmd: MAP LOAD FILE="F:/Unreal/AncientGame/Content/Maps/PlainOldSchool.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.18-03.51.26:527][390]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.18-03.51.26:546][390]LightingResults: New page: Lighting Build
+[2017.06.18-03.51.26:549][390]LoadErrors: New page: Loading map: PlainOldSchool.umap
+[2017.06.18-03.51.26:552][390]MapCheck: New page: Map Check
+[2017.06.18-03.51.26:552][390]LightingResults: New page: Lighting Build
+[2017.06.18-03.51.26:731][390]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-03.51.26:745][390]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.18-03.51.26:792][390]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.18-03.51.26:877][390]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.66ms to complete.
+[2017.06.18-03.51.26:877][390]LogFileHelpers: Loading map 'PlainOldSchool' took 0.390
+[2017.06.18-03.51.51:359][155]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-03.51.51:380][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-03.51.51:381][155]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 2:51:51 PM)
+[2017.06.18-03.51.51:381][155]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-03.51.51:388][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007021s)
+[2017.06.18-03.51.51:388][155]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-03.51.51:389][155]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2017.06.18-03.51.51:389][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.008012s)
+[2017.06.18-03.51.51:412][155]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-03.51.51:421][155]LogInit: FAudioDevice initialized.
+[2017.06.18-03.51.53:082][155]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-03.51.53:114][155]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-09.21.53
+[2017.06.18-03.51.53:115][155]LogWorld: Bringing up level for play took: 0.001451
+[2017.06.18-03.51.53:166][155]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.06.18-03.51.53:166][155]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-03.51.53:166][155]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-03.51.53:167][155]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-03.51.53:211][155]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-03.51.53:212][155]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool 1.159
+[2017.06.18-03.52.16:022][547]LogCharacterMovement: AG_Char_Player_C_0 is stuck and failed to move! Velocity: X=-482.75 Y=107.03 Z=0.00 Location: X=-1777.81 Y=-7163.41 Z=88.82 Normal: X=0.59 Y=0.04 Z=-0.81 PenetrationDepth:11.544 Actor:AG_Bullet_BB_C_43 Component:Sphere BoneName:None (0 other events since notify)
+[2017.06.18-03.52.29:915][818]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.18-03.52.30:066][818]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.06.18-03.52.31:313][818]LogSlate: Took 0.009602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.18-03.52.35:410][ 65]LogSlate: Took 0.016358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.18-03.53.14:310][563]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-03.53.14:934][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-03.53.15:021][592]LogSavePackage: Save=75.17ms
+[2017.06.18-03.53.15:021][592]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BB442C32E348CE5AEDFEFE3695729A1F70.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-03.53.15:023][592]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-03.53.17:611][832]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-03.53.17:637][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-03.53.17:637][832]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 2:53:17 PM)
+[2017.06.18-03.53.17:637][832]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-03.53.17:644][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006384s)
+[2017.06.18-03.53.17:644][832]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-03.53.17:645][832]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2017.06.18-03.53.17:645][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007440s)
+[2017.06.18-03.53.17:683][832]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-03.53.17:691][832]LogInit: FAudioDevice initialized.
+[2017.06.18-03.53.17:720][832]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-03.53.17:721][832]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-09.23.17
+[2017.06.18-03.53.17:722][832]LogWorld: Bringing up level for play took: 0.001238
+[2017.06.18-03.53.17:723][832]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-03.53.17:723][832]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-03.53.17:723][832]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-03.53.17:725][832]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-03.53.17:725][832]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool -0.329
+[2017.06.18-03.55.55:506][770]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-03.55.55:541][770]LogBlueprint:Error: [Compiler AG_Bullet_BB] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.18-03.55.55:994][770]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.18-03.55.55:994][770]LogBlueprint:Warning: [Compiler AG_Bullet_BB] Warning [0296.67] Compile of AG_Bullet_BB failed. 1 Fatal Issue(s) 0 Warning(s) [in 488 ms] (/Game/Player/Player/AG_Bullet_BB.AG_Bullet_BB)
+[2017.06.18-03.55.56:448][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-03.55.56:483][799]LogSavePackage: Save=23.76ms
+[2017.06.18-03.55.56:483][799]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BBE9D8BD0A4546A39F6076A2B9533BA922.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-03.55.56:484][799]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-03.56.22:430][641]LogRenderer: Reallocating scene render targets to support 1224x712 NumSamples 1 (Frame:22108).
+[2017.06.18-03.56.49:312][250]LogEditorTransaction: Undo Make New Scene Root
+[2017.06.18-03.56.49:382][250]LogSlate: Took 0.000867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.18-03.59.10:155][244]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-03.59.10:164][244]LogBlueprint:Error: [Compiler AG_Bullet_BB] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.18-03.59.10:605][244]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2017.06.18-03.59.10:606][244]LogBlueprint:Warning: [Compiler AG_Bullet_BB] Warning [0491.28] Compile of AG_Bullet_BB failed. 1 Fatal Issue(s) 0 Warning(s) [in 449 ms] (/Game/Player/Player/AG_Bullet_BB.AG_Bullet_BB)
+[2017.06.18-03.59.10:972][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-03.59.11:034][265]LogSavePackage: Save=49.65ms
+[2017.06.18-03.59.11:034][265]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BB761E766943D967E86F424CB3ACFC9A56.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-03.59.11:036][265]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-03.59.35:637][ 25]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-03.59.36:222][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-03.59.36:260][ 54]LogSavePackage: Save=27.39ms
+[2017.06.18-03.59.36:260][ 54]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BBB8DCCE3A4C70F56D764D9CA2D953DAFB.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-03.59.36:262][ 54]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-03.59.39:252][341]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-03.59.39:276][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-03.59.39:276][341]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 2:59:39 PM)
+[2017.06.18-03.59.39:276][341]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-03.59.39:283][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006499s)
+[2017.06.18-03.59.39:283][341]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-03.59.39:283][341]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2017.06.18-03.59.39:284][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007516s)
+[2017.06.18-03.59.39:322][341]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-03.59.39:330][341]LogInit: FAudioDevice initialized.
+[2017.06.18-03.59.39:362][341]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-03.59.39:363][341]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-09.29.39
+[2017.06.18-03.59.39:364][341]LogWorld: Bringing up level for play took: 0.001283
+[2017.06.18-03.59.39:365][341]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-03.59.39:365][341]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-03.59.39:365][341]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-03.59.39:394][341]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-03.59.39:394][341]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool -0.666
+[2017.06.18-04.00.26:142][661]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-04.00.26:735][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-04.00.26:774][680]LogSavePackage: Save=28.00ms
+[2017.06.18-04.00.26:774][680]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BBC0D22E454753FE097ED6C3A00BE4B92A.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-04.00.26:776][680]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-04.00.29:109][875]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-04.00.29:133][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-04.00.29:133][875]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 3:00:29 PM)
+[2017.06.18-04.00.29:133][875]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-04.00.29:140][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006311s)
+[2017.06.18-04.00.29:140][875]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-04.00.29:140][875]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2017.06.18-04.00.29:141][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007311s)
+[2017.06.18-04.00.29:179][875]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-04.00.29:187][875]LogInit: FAudioDevice initialized.
+[2017.06.18-04.00.29:218][875]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-04.00.29:220][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-09.30.29
+[2017.06.18-04.00.29:220][875]LogWorld: Bringing up level for play took: 0.001307
+[2017.06.18-04.00.29:221][875]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.00.29:221][875]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.00.29:221][875]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.00.29:224][875]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.00.29:224][875]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool -0.837
+[2017.06.18-04.00.29:688][919]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.00.30:864][ 34]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.00.33:085][276]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.01.35:054][176]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.AG_Bullet_BB_C_1.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.01.35:054][176]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.01.49:025][ 83]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.AG_Bullet_BB_C_1.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.01.49:025][ 83]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.01.55:851][525]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.AG_Bullet_BB_C_1.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.01.55:851][525]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.01.57:581][635]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.AG_Bullet_BB_C_1.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.01.57:582][635]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.01.59:270][742]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.AG_Bullet_BB_C_1.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.01.59:271][742]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.01.59:878][779]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.AG_Bullet_BB_C_1.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.01.59:878][779]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.02.00:985][849]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_4:PersistentLevel.AG_Bullet_BB_C_1.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.02.00:986][849]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.02.02:388][938]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-04.02.02:997][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-04.02.03:035][958]LogSavePackage: Save=27.96ms
+[2017.06.18-04.02.03:035][958]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BBA912642745D142A6374DC5857B7BBB92.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-04.02.03:037][958]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-04.02.05:180][140]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-04.02.05:206][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-04.02.05:206][140]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 3:02:05 PM)
+[2017.06.18-04.02.05:206][140]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-04.02.05:212][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006362s)
+[2017.06.18-04.02.05:213][140]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-04.02.05:213][140]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2017.06.18-04.02.05:213][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007370s)
+[2017.06.18-04.02.05:253][140]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-04.02.05:262][140]LogInit: FAudioDevice initialized.
+[2017.06.18-04.02.05:294][140]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-04.02.05:296][140]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-09.32.05
+[2017.06.18-04.02.05:296][140]LogWorld: Bringing up level for play took: 0.001419
+[2017.06.18-04.02.05:297][140]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.02.05:297][140]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.02.05:297][140]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.02.05:300][140]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.02.05:300][140]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool -0.761
+[2017.06.18-04.02.05:703][182]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.02.06:916][309]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.02.07:443][363]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.02.08:390][465]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.02.09:876][623]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.02.10:499][690]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.02.11:022][745]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.02.11:286][773]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.02.12:574][909]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.02.13:605][ 17]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.02.14:353][ 96]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.02.14:972][161]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.11.18:255][ 15]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0E7F
+[2017.06.18-04.11.18:255][ 15]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0943
+[2017.06.18-04.11.18:255][ 15]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0958
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:098B
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:09A0
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:09D2
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0A2F
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0A44
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0A8C
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0AA1
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0AD4
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0AE9
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0C76
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0C8B
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0E7F
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None trying to read property TheCharacter
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0943
+[2017.06.18-04.11.18:256][ 15]LogScript:Warning: Accessed None
+	AG_PC_Player_C /Engine/Transient.World_6:PersistentLevel.AG_PC_Player_C_0
+	Function /Game/Player/Player/AG_PC_Player.AG_PC_Player_C:ExecuteUbergraph_AG_PC_Player:0958
+[2017.06.18-04.12.47:403][302]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlainOldSchool' took 0.040
+[2017.06.18-04.12.47:414][302]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/Player/AG_PC_Player] ([1] browsable assets)...
+[2017.06.18-04.12.47:414][302]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/AG_PC_Player]
+[2017.06.18-04.12.47:414][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_PC_Player" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_PC_Player_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-04.12.47:620][302]LogSavePackage: Save=175.58ms
+[2017.06.18-04.12.47:620][302]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_PC_Player_Auto115EDF6D141E577903922B387770D016B.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_PC_Player_Auto1.uasset'
+[2017.06.18-04.12.47:621][302]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_PC_Player_Auto1.uasset
+[2017.06.18-04.12.47:621][302]LogFileHelpers: Auto-saving content packages took 0.217
+[2017.06.18-04.19.15:130][816]LogBlueprint:Warning: Reparenting blueprint Blueprint /Game/Character/AG_InventoryManager.AG_InventoryManager from SceneComponent to ActorComponent...
+[2017.06.18-04.19.15:138][816]BlueprintLog: New page: Compile AG_InventoryManager
+[2017.06.18-04.22.50:948][755]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlainOldSchool' took 0.041
+[2017.06.18-04.22.50:950][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Player/AG_Char_Player] ([1] browsable assets)...
+[2017.06.18-04.22.50:971][755]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/Player/AG_Char_Player.AG_Char_Player]
+[2017.06.18-04.22.50:971][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player/AG_Char_Player]
+[2017.06.18-04.22.50:971][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Char_Player" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Char_Player_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-04.22.51:048][755]LogSavePackage: Save=66.09ms
+[2017.06.18-04.22.51:049][755]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Char_Player_Auto2691938244AA09FAA8DA04D96B7B81B76.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Char_Player_Auto2.uasset'
+[2017.06.18-04.22.51:066][755]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Player/Player/AG_Char_Player_Auto2.uasset
+[2017.06.18-04.22.51:066][755]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/AG_InventoryManager] ([1] browsable assets)...
+[2017.06.18-04.22.51:066][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/AG_InventoryManager]
+[2017.06.18-04.22.51:066][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AG_InventoryManager" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/AG_InventoryManager_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-04.22.51:082][755]LogSavePackage: Save=3.93ms
+[2017.06.18-04.22.51:082][755]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_InventoryManager_Auto215F353184CFA6A131BF5FEA7918BADDF.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/AG_InventoryManager_Auto2.uasset'
+[2017.06.18-04.22.51:083][755]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/AG_InventoryManager_Auto2.uasset
+[2017.06.18-04.22.51:083][755]LogFileHelpers: Auto-saving content packages took 0.134
+[2017.06.18-04.23.15:999][660]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.18-04.23.22:213][114]BlueprintLog: New page: Compile AG_InventoryManager
+[2017.06.18-04.23.22:998][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AG_InventoryManager" FILE="F:/Unreal/AncientGame/Content/Character/AG_InventoryManager.uasset" SILENT=true
+[2017.06.18-04.23.23:013][160]LogSavePackage: Save=3.93ms
+[2017.06.18-04.23.23:013][160]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_InventoryManagerD33C05E246A5DC2768DE45868B93BBDE.tmp' to 'F:/Unreal/AncientGame/Content/Character/AG_InventoryManager.uasset'
+[2017.06.18-04.23.23:014][160]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Character/AG_InventoryManager.uasset
+[2017.06.18-04.24.58:580][633]BlueprintLog: New page: Compile AG_Char_Player
+[2017.06.18-04.24.59:744][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Char_Player" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Char_Player.uasset" SILENT=true
+[2017.06.18-04.24.59:798][663]LogSavePackage: Save=42.47ms
+[2017.06.18-04.24.59:798][663]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Char_PlayerEA6D9CDD45C107C29C69FE80CBFF750A.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Char_Player.uasset'
+[2017.06.18-04.24.59:799][663]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Char_Player.uasset
+[2017.06.18-04.26.18:321][ 43]LogSlate: Took 0.010643 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.18-04.28.32:715][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.18-04.28.32:836][964]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.18-04.28.52:971][452]LogMetaData: Removing '/Game/Character/AG_Inventory_Item_Count.AG_Inventory_Item_Count' ref from Metadata '/Game/Character/NewUserDefinedStruct.PackageMetaData'
+[2017.06.18-04.28.52:971][452]LogMetaData: Removing '/Game/Character/AG_Inventory_Item_Count.AG_Inventory_Item_Count:MemberVar_0_96949E0A4949F0C211B11B8DEC3D4A77' ref from Metadata '/Game/Character/NewUserDefinedStruct.PackageMetaData'
+[2017.06.18-04.28.52:998][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AG_Inventory_Item_Count" FILE="F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset" SILENT=true
+[2017.06.18-04.28.53:000][452]LogSavePackage: Save=1.34ms
+[2017.06.18-04.28.53:001][452]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Inventory_Item_Count8D1E35EA4C66A31516B822AA3C1CA454.tmp' to 'F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset'
+[2017.06.18-04.28.53:001][452]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset
+[2017.06.18-04.30.15:276][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AG_Inventory_Item_Count" FILE="F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset" SILENT=true
+[2017.06.18-04.30.15:322][928]LogSavePackage: Save=3.19ms
+[2017.06.18-04.30.15:322][928]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Inventory_Item_CountFF4AD9A048DDB134799AEA88286F8B01.tmp' to 'F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset'
+[2017.06.18-04.30.15:325][928]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset
+[2017.06.18-04.32.57:052][872]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-04.32.57:078][872]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.18-04.32.57:078][872]LogPlayLevel: [PlayLevel] Compiling AG_InventoryManager before play...
+[2017.06.18-04.32.57:219][872]LogPlayLevel: PlayLevel: Blueprint regeneration took 141 ms (1 blueprints)
+[2017.06.18-04.32.57:220][872]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 3:32:57 PM)
+[2017.06.18-04.32.57:220][872]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-04.32.57:227][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007075s)
+[2017.06.18-04.32.57:227][872]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-04.32.57:228][872]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2017.06.18-04.32.57:228][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.008228s)
+[2017.06.18-04.32.57:266][872]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-04.32.57:275][872]LogInit: FAudioDevice initialized.
+[2017.06.18-04.32.57:304][872]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-04.32.57:305][872]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-10.02.57
+[2017.06.18-04.32.57:306][872]LogWorld: Bringing up level for play took: 0.001294
+[2017.06.18-04.32.57:307][872]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.32.57:307][872]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.32.57:307][872]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.32.57:327][872]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.32.57:327][872]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool 1.238
+[2017.06.18-04.32.58:584][992]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.33.00:088][150]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.33.12:303][ 84]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-04.33.12:916][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-04.33.12:960][115]LogSavePackage: Save=31.69ms
+[2017.06.18-04.33.12:960][115]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BBB607E2E34D8510717EDE7E93EBD1A90D.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-04.33.12:962][115]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-04.33.14:931][293]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-04.33.14:956][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-04.33.14:957][293]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 3:33:14 PM)
+[2017.06.18-04.33.14:957][293]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-04.33.14:963][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006519s)
+[2017.06.18-04.33.14:964][293]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-04.33.14:964][293]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2017.06.18-04.33.14:964][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007662s)
+[2017.06.18-04.33.15:005][293]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-04.33.15:013][293]LogInit: FAudioDevice initialized.
+[2017.06.18-04.33.15:045][293]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-04.33.15:046][293]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-10.03.15
+[2017.06.18-04.33.15:047][293]LogWorld: Bringing up level for play took: 0.001258
+[2017.06.18-04.33.15:048][293]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.33.15:048][293]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.33.15:048][293]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.33.15:050][293]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.33.15:050][293]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool 0.961
+[2017.06.18-04.33.15:565][345]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.33.17:032][497]PIE:Warning: Warning AG_Bullet_BB_C_0.Col_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.33.17:032][497]PIE:Warning: Warning AG_Bullet_BB_C_1.Col_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.33.50:674][721]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-04.33.51:582][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-04.33.51:619][756]LogSavePackage: Save=26.37ms
+[2017.06.18-04.33.51:619][756]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BBCC9D59EF4A0AAFAD4C386C9CA8784267.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-04.33.51:620][756]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-04.34.00:920][316]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-04.34.01:447][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-04.34.01:485][330]LogSavePackage: Save=26.30ms
+[2017.06.18-04.34.01:485][330]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BB546B1A4C4EC3B4B939BF3686E3AA8236.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-04.34.01:485][330]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-04.34.17:048][165]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-04.34.17:077][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-04.34.17:077][165]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 3:34:17 PM)
+[2017.06.18-04.34.17:077][165]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-04.34.17:083][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006293s)
+[2017.06.18-04.34.17:084][165]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-04.34.17:084][165]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2017.06.18-04.34.17:084][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007304s)
+[2017.06.18-04.34.17:126][165]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-04.34.17:134][165]LogInit: FAudioDevice initialized.
+[2017.06.18-04.34.17:167][165]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-04.34.17:168][165]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-10.04.17
+[2017.06.18-04.34.17:169][165]LogWorld: Bringing up level for play took: 0.001441
+[2017.06.18-04.34.17:170][165]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.34.17:170][165]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.34.17:170][165]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.34.17:172][165]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.34.17:172][165]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool 1.082
+[2017.06.18-04.36.10:269][771]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.36.10:269][771]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_14:PersistentLevel.AG_Bullet_BB_C_12.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.36.10:838][803]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_14:PersistentLevel.AG_Bullet_BB_C_12.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.36.10:838][803]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.36.47:465][916]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-04.36.48:975][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-04.36.49:013][982]LogSavePackage: Save=27.46ms
+[2017.06.18-04.36.49:013][982]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BB34F115A046CE2FC202859796BA842FFC.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-04.36.49:014][982]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-04.36.52:582][155]BlueprintLog: New page: Compile AG_PC_Player
+[2017.06.18-04.36.53:691][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_PC_Player" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset" SILENT=true
+[2017.06.18-04.36.53:842][178]LogSavePackage: Save=138.72ms
+[2017.06.18-04.36.53:842][178]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_PC_PlayerC67665564BB76B5DA02FDA8B444017AA.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset'
+[2017.06.18-04.36.53:843][178]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset
+[2017.06.18-04.36.57:741][413]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-04.36.57:770][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-04.36.57:770][413]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 3:36:57 PM)
+[2017.06.18-04.36.57:770][413]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-04.36.57:777][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006713s)
+[2017.06.18-04.36.57:778][413]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-04.36.57:778][413]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2017.06.18-04.36.57:778][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007730s)
+[2017.06.18-04.36.57:822][413]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-04.36.57:830][413]LogInit: FAudioDevice initialized.
+[2017.06.18-04.36.57:863][413]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-04.36.57:864][413]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-10.06.57
+[2017.06.18-04.36.57:865][413]LogWorld: Bringing up level for play took: 0.001258
+[2017.06.18-04.36.57:866][413]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.36.57:866][413]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.36.57:866][413]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.36.57:868][413]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.36.57:868][413]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool -0.224
+[2017.06.18-04.36.58:244][448]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.36.59:293][550]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.36.59:977][616]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.00:992][715]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.00:992][715]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.00:992][715]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.00:992][715]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:001][716]LogCharacterMovement: AG_Char_Player_C_0 is stuck and failed to move! Velocity: X=0.67 Y=37.47 Z=0.00 Location: X=-1730.22 Y=-7201.88 Z=88.83 Normal: X=-0.59 Y=0.00 Z=-0.81 PenetrationDepth:31.700 Actor:AG_Bullet_BB_C_0 Component:Col_Sphere BoneName:None (0 other events since notify)
+[2017.06.18-04.37.01:002][716]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:002][716]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:002][716]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:002][716]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:012][717]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:012][717]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:012][717]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:012][717]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:023][718]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:023][718]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:023][718]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:023][718]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:032][719]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:032][719]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:043][720]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:043][720]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:054][721]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:054][721]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:065][722]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:066][722]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:077][723]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:077][723]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:086][724]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:086][724]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:100][725]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:100][725]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:114][726]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:114][726]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:125][727]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:126][727]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:137][728]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:137][728]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:148][729]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:149][729]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:157][730]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:157][730]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:170][731]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:170][731]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:180][732]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:180][732]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:189][733]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:189][733]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:199][734]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:199][734]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:212][735]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.01:212][735]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.02:031][817]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.02:794][891]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.03:239][934]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.03:805][987]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.37.53:575][706]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_14:PersistentLevel.AG_Bullet_BB_C_12.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.37.53:575][706]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.37.54:126][736]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_14:PersistentLevel.AG_Bullet_BB_C_12.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.37.54:127][736]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.37.55:582][818]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.37.55:582][818]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_14:PersistentLevel.AG_Bullet_BB_C_12.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.37.56:960][894]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_14:PersistentLevel.AG_Bullet_BB_C_12.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.37.56:960][894]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.38.04:054][299]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_14:PersistentLevel.AG_Bullet_BB_C_12.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.38.04:054][299]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.38.05:121][358]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_14:PersistentLevel.AG_Bullet_BB_C_12.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.38.05:121][358]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.38.08:074][524]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-04.38.14:876][896]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_14:PersistentLevel.AG_Bullet_BB_C_12.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.38.14:876][896]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_2:PersistentLevel.AG_Bullet_BB_C_0.Col_Sphere) Not currently registered. Aborting.
+[2017.06.18-04.38.16:988][ 16]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-04.38.17:620][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-04.38.17:658][ 34]LogSavePackage: Save=27.25ms
+[2017.06.18-04.38.17:659][ 34]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BBD7944DC74519ACBEB6CC8DBDD013B25F.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-04.38.17:660][ 34]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-04.38.20:461][229]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-04.38.20:490][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-04.38.20:491][229]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 3:38:20 PM)
+[2017.06.18-04.38.20:491][229]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-04.38.20:498][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006775s)
+[2017.06.18-04.38.20:498][229]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-04.38.20:498][229]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2017.06.18-04.38.20:499][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007840s)
+[2017.06.18-04.38.20:541][229]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-04.38.20:549][229]LogInit: FAudioDevice initialized.
+[2017.06.18-04.38.20:581][229]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-04.38.20:582][229]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-10.08.20
+[2017.06.18-04.38.20:583][229]LogWorld: Bringing up level for play took: 0.001391
+[2017.06.18-04.38.20:584][229]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.38.20:584][229]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.38.20:584][229]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.38.20:587][229]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.38.20:587][229]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool 0.493
+[2017.06.18-04.38.21:002][268]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.22:247][391]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.22:887][453]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.25:772][740]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.26:966][862]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.26:966][862]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.26:966][862]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.26:966][862]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.26:966][862]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.26:975][863]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.26:975][863]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.26:986][864]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.26:986][864]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.26:995][865]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.26:995][865]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:005][866]LogCharacterMovement: AG_Char_Player_C_0 is stuck and failed to move! Velocity: X=14.38 Y=-44.32 Z=0.00 Location: X=-3279.75 Y=-5861.47 Z=88.05 Normal: X=-0.26 Y=0.60 Z=-0.76 PenetrationDepth:28.392 Actor:AG_Bullet_BB_C_3 Component:Col_Sphere BoneName:None (0 other events since notify)
+[2017.06.18-04.38.27:006][866]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:006][866]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:006][866]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:006][866]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:016][867]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:016][867]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:016][867]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:016][867]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:025][868]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:025][868]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:025][868]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:025][868]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:037][869]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:037][869]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:037][869]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:037][869]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:047][870]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:047][870]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:055][871]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:055][871]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:067][872]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:067][872]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:067][872]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:067][872]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:076][873]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:077][873]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:077][873]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:077][873]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:086][874]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:087][874]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:087][874]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:087][874]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:096][875]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:097][875]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:108][876]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:108][876]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:108][876]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:108][876]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:119][877]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:119][877]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:119][877]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:119][877]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:129][878]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:129][878]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:129][878]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:129][878]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:140][879]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:140][879]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:140][879]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:140][879]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:151][880]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:151][880]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:151][880]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:151][880]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:161][881]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:161][881]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:161][881]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:161][881]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:173][882]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:173][882]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:183][883]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:183][883]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:183][883]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:183][883]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:193][884]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:193][884]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:193][884]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:193][884]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:205][885]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:205][885]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:205][885]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:205][885]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:214][886]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:215][886]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:215][886]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:215][886]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:226][887]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:227][887]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:227][887]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:227][887]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:239][888]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:239][888]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:239][888]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:239][888]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:250][889]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:250][889]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:250][889]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:250][889]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:260][890]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:260][890]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:272][891]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:272][891]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:272][891]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:272][891]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:282][892]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:282][892]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:292][893]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:292][893]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:292][893]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:292][893]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:301][894]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:301][894]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:310][895]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:310][895]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:310][895]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:310][895]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:321][896]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:321][896]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:330][897]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:341][898]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:352][899]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:362][900]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:374][901]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:384][902]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:394][903]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:404][904]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:414][905]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:424][906]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:433][907]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:443][908]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:453][909]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:464][910]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:474][911]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:474][911]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:915][957]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:915][957]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:915][957]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:915][957]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:915][957]PIE:Warning: Warning AG_Char_Player_C_0.CharacterMesh0 Beta_FIXED has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:924][958]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:924][958]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:924][958]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:924][958]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:934][959]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:934][959]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:944][960]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:944][960]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:944][960]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:944][960]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:954][961]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:954][961]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:954][961]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:954][961]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:963][962]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:963][962]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:963][962]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:963][962]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:973][963]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:973][963]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:973][963]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:973][963]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:982][964]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:982][964]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:982][964]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:982][964]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:992][965]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:992][965]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:992][965]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.27:992][965]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:003][966]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:003][966]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:003][966]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:003][966]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:012][967]LogCharacterMovement: AG_Char_Player_C_0 is stuck and failed to move! Velocity: X=24.82 Y=-186.19 Z=0.00 Location: X=-3391.47 Y=-6154.30 Z=88.27 Normal: X=-0.24 Y=0.51 Z=-0.82 PenetrationDepth:31.670 Actor:AG_Bullet_BB_C_4 Component:Col_Sphere BoneName:None (30 other events since notify)
+[2017.06.18-04.38.28:012][967]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:012][967]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:012][967]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:012][967]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:022][968]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:022][968]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:022][968]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:022][968]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:032][969]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:032][969]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:032][969]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:032][969]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:042][970]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:042][970]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:042][970]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:042][970]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:053][971]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:053][971]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:053][971]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:053][971]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:063][972]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:063][972]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:063][972]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:063][972]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:074][973]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:074][973]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:074][973]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:074][973]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:085][974]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:085][974]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:085][974]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:085][974]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:094][975]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:094][975]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:094][975]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:094][975]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:106][976]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:106][976]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:106][976]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:106][976]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:115][977]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:115][977]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:116][977]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:116][977]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:125][978]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:125][978]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:125][978]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:125][978]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:137][979]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:137][979]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:137][979]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:137][979]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:146][980]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:146][980]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:146][980]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:146][980]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:156][981]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:156][981]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:156][981]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:157][981]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:167][982]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:167][982]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:177][983]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:177][983]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:187][984]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:188][984]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:197][985]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:197][985]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:197][985]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:197][985]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:206][986]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:206][986]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:206][986]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:206][986]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:217][987]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:217][987]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:217][987]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:217][987]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:227][988]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:227][988]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:239][989]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:239][989]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:239][989]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:239][989]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:250][990]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:250][990]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:260][991]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:260][991]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:260][991]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:260][991]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:271][992]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:271][992]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:282][993]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:282][993]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:282][993]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:282][993]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:292][994]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:292][994]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:292][994]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:292][994]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:303][995]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:303][995]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:303][995]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:303][995]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:313][996]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:313][996]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:313][996]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:313][996]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:325][997]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:325][997]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:325][997]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:325][997]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:336][998]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:336][998]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:336][998]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:336][998]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:346][999]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:346][999]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:358][  0]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:358][  0]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:358][  0]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:358][  0]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:370][  1]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:370][  1]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:379][  2]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:379][  2]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:379][  2]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:379][  2]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:389][  3]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:389][  3]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:400][  4]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:401][  4]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:401][  4]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:401][  4]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:411][  5]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:411][  5]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:411][  5]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:411][  5]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:422][  6]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:422][  6]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:432][  7]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:432][  7]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:432][  7]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:432][  7]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:442][  8]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:442][  8]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:452][  9]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:452][  9]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:461][ 10]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:461][ 10]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:462][ 10]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:462][ 10]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:473][ 11]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:473][ 11]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:473][ 11]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:473][ 11]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:484][ 12]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:484][ 12]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:484][ 12]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:484][ 12]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:494][ 13]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:505][ 14]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:514][ 15]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:524][ 16]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:534][ 17]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:544][ 18]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:554][ 19]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:563][ 20]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:573][ 21]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:582][ 22]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:593][ 23]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:602][ 24]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:611][ 25]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:621][ 26]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:632][ 27]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:641][ 28]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:651][ 29]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:659][ 30]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:670][ 31]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:678][ 32]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:688][ 33]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:699][ 34]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:709][ 35]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:720][ 36]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:729][ 37]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:740][ 38]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:748][ 39]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:757][ 40]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:766][ 41]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:776][ 42]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:786][ 43]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:797][ 44]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:806][ 45]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:815][ 46]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:825][ 47]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.38.28:836][ 48]PIE:Warning: Warning AG_Char_Player_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2017.06.18-04.39.01:519][878]BlueprintLog: New page: Compile AG_Bullet_BB
+[2017.06.18-04.39.02:183][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Bullet_BB" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset" SILENT=true
+[2017.06.18-04.39.02:222][896]LogSavePackage: Save=27.75ms
+[2017.06.18-04.39.02:222][896]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Bullet_BB0AD9639A4892CE9895E3889329B28E95.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset'
+[2017.06.18-04.39.02:224][896]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Bullet_BB.uasset
+[2017.06.18-04.39.04:214][ 42]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-04.39.04:243][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-04.39.04:243][ 42]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 3:39:04 PM)
+[2017.06.18-04.39.04:243][ 42]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-04.39.04:251][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007237s)
+[2017.06.18-04.39.04:251][ 42]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-04.39.04:251][ 42]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2017.06.18-04.39.04:251][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.008254s)
+[2017.06.18-04.39.04:295][ 42]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-04.39.04:303][ 42]LogInit: FAudioDevice initialized.
+[2017.06.18-04.39.04:332][ 42]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-04.39.04:334][ 42]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-10.09.04
+[2017.06.18-04.39.04:334][ 42]LogWorld: Bringing up level for play took: 0.001314
+[2017.06.18-04.39.04:335][ 42]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.39.04:335][ 42]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.39.04:335][ 42]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.39.04:338][ 42]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.39.04:338][ 42]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool 0.244
+[2017.06.18-04.40.14:264][501]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlainOldSchool' took 0.042
+[2017.06.18-04.40.14:265][501]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/AG_InventoryManager] ([1] browsable assets)...
+[2017.06.18-04.40.14:265][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/AG_InventoryManager]
+[2017.06.18-04.40.14:265][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AG_InventoryManager" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/AG_InventoryManager_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-04.40.14:284][501]LogSavePackage: Save=5.22ms
+[2017.06.18-04.40.14:284][501]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_InventoryManager_Auto3F8BD9D524A41864C02DB589E20D2E47B.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/AG_InventoryManager_Auto3.uasset'
+[2017.06.18-04.40.14:284][501]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/AG_InventoryManager_Auto3.uasset
+[2017.06.18-04.40.14:284][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/NewUserDefinedStruct" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/NewUserDefinedStruct_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-04.40.14:286][501]LogSavePackage: Save=0.71ms
+[2017.06.18-04.40.14:286][501]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/NewUserDefinedStruct_Auto38016A2234FA644584FF4ACBCFED7DA68.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/NewUserDefinedStruct_Auto3.uasset'
+[2017.06.18-04.40.14:286][501]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/NewUserDefinedStruct_Auto3.uasset
+[2017.06.18-04.40.14:286][501]LogFileHelpers: Auto-saving content packages took 0.022
+[2017.06.18-04.43.40:714][495]BlueprintLog: New page: Compile AG_PC_Player
+[2017.06.18-04.43.41:635][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_PC_Player" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset" SILENT=true
+[2017.06.18-04.43.41:781][512]LogSavePackage: Save=113.59ms
+[2017.06.18-04.43.41:781][512]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_PC_Player60E337FA4444CE706FF295B2602E66C5.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset'
+[2017.06.18-04.43.41:782][512]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_PC_Player.uasset
+[2017.06.18-04.43.43:731][669]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-04.43.43:759][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-04.43.43:759][669]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 3:43:43 PM)
+[2017.06.18-04.43.43:759][669]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-04.43.43:766][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006384s)
+[2017.06.18-04.43.43:767][669]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-04.43.43:767][669]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2017.06.18-04.43.43:767][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007431s)
+[2017.06.18-04.43.43:809][669]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-04.43.43:817][669]LogInit: FAudioDevice initialized.
+[2017.06.18-04.43.43:847][669]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-04.43.43:849][669]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-10.13.43
+[2017.06.18-04.43.43:849][669]LogWorld: Bringing up level for play took: 0.001256
+[2017.06.18-04.43.43:850][669]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.43.43:850][669]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.43.43:850][669]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.43.43:852][669]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.43.43:852][669]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool -0.246
+[2017.06.18-04.44.43:592][973]BlueprintLog: New page: Compile AG_Player_HUD
+[2017.06.18-04.44.44:348][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Player_HUD" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Player_HUD.uasset" SILENT=true
+[2017.06.18-04.44.44:398][  3]LogSavePackage: Save=38.47ms
+[2017.06.18-04.44.44:398][  3]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Player_HUD723C1718435739DA5CDF22808912A2A4.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Player_HUD.uasset'
+[2017.06.18-04.44.44:404][  3]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Player_HUD.uasset
+[2017.06.18-04.44.46:794][185]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.18-04.44.46:824][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.18-04.44.46:824][185]PIE: New page: PIE session: PlainOldSchool (Jun 18, 2017, 3:44:46 PM)
+[2017.06.18-04.44.46:824][185]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_PlainOldSchool
+[2017.06.18-04.44.46:831][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006246s)
+[2017.06.18-04.44.46:831][185]LogAIModule: Creating AISystem for world PlainOldSchool
+[2017.06.18-04.44.46:832][185]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2017.06.18-04.44.46:832][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/PlainOldSchool.PlainOldSchool to /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool (0.007255s)
+[2017.06.18-04.44.46:875][185]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.18-04.44.46:883][185]LogInit: FAudioDevice initialized.
+[2017.06.18-04.44.46:914][185]LogLoad: Game class is 'Ancient_Player_GameMode_C'
+[2017.06.18-04.44.46:916][185]LogWorld: Bringing World /Game/Maps/UEDPIE_0_PlainOldSchool.PlainOldSchool up for play (max tick rate 0) at 2017.06.18-10.14.46
+[2017.06.18-04.44.46:916][185]LogWorld: Bringing up level for play took: 0.001258
+[2017.06.18-04.44.46:917][185]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.44.46:917][185]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.06.18-04.44.46:917][185]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.44.46:919][185]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.06.18-04.44.46:919][185]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_PlainOldSchool 0.82
+[2017.06.18-04.45.08:674][193]BlueprintLog: New page: Compile AG_Player_HUD
+[2017.06.18-04.45.09:379][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player/AG_Player_HUD" FILE="F:/Unreal/AncientGame/Content/Player/Player/AG_Player_HUD.uasset" SILENT=true
+[2017.06.18-04.45.09:417][224]LogSavePackage: Save=26.30ms
+[2017.06.18-04.45.09:417][224]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Player_HUD050D0842447DF87C5564BC9B71710D42.tmp' to 'F:/Unreal/AncientGame/Content/Player/Player/AG_Player_HUD.uasset'
+[2017.06.18-04.45.09:418][224]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Player/Player/AG_Player_HUD.uasset
+[2017.06.18-04.45.13:887][476]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.18-04.47.58:672][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AG_Inventory_Item_Count" FILE="F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset" SILENT=true
+[2017.06.18-04.47.58:687][992]LogSavePackage: Save=2.07ms
+[2017.06.18-04.47.58:687][992]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Inventory_Item_CountC1FB904B417FFB9DA427BE8A6F691149.tmp' to 'F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset'
+[2017.06.18-04.47.58:688][992]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset
+[2017.06.18-04.54.57:650][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AG_Inventory_Item_Count" FILE="F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset" SILENT=true
+[2017.06.18-04.54.57:671][677]LogSavePackage: Save=9.18ms
+[2017.06.18-04.54.57:671][677]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Inventory_Item_Count6EF2CCD04A6233683D2591BC9E19C0E0.tmp' to 'F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset'
+[2017.06.18-04.54.57:673][677]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset
+[2017.06.18-04.55.10:817][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AG_Inventory_Item_Count" FILE="F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset" SILENT=true
+[2017.06.18-04.55.10:831][844]LogSavePackage: Save=2.01ms
+[2017.06.18-04.55.10:831][844]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_Inventory_Item_CountE3BD30124B0EBACD8B507AA22382765C.tmp' to 'F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset'
+[2017.06.18-04.55.10:832][844]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Character/AG_Inventory_Item_Count.uasset
+[2017.06.18-04.55.16:155][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.18-04.56.45:693][ 68]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/PlainOldSchool' took 0.053
+[2017.06.18-04.56.45:695][ 68]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Character/AG_InventoryManager] ([1] browsable assets)...
+[2017.06.18-04.56.45:695][ 68]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/AG_InventoryManager]
+[2017.06.18-04.56.45:695][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AG_InventoryManager" FILE="F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/AG_InventoryManager_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.06.18-04.56.45:748][ 68]LogSavePackage: Save=38.50ms
+[2017.06.18-04.56.45:748][ 68]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_InventoryManager_Auto4D970410E4AB8F279071984859D13D1A4.tmp' to 'F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/AG_InventoryManager_Auto4.uasset'
+[2017.06.18-04.56.45:749][ 68]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Saved/Autosaves/Game/Character/AG_InventoryManager_Auto4.uasset
+[2017.06.18-04.56.45:749][ 68]LogFileHelpers: Auto-saving content packages took 0.055
+[2017.06.18-04.59.49:909][484]LogEditorTransaction: Undo Move Node
+[2017.06.18-05.02.34:569][757]BlueprintLog: New page: Compile AG_InventoryManager
+[2017.06.18-05.02.35:193][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/AG_InventoryManager" FILE="F:/Unreal/AncientGame/Content/Character/AG_InventoryManager.uasset" SILENT=true
+[2017.06.18-05.02.35:238][782]LogSavePackage: Save=10.37ms
+[2017.06.18-05.02.35:238][782]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/AG_InventoryManagerD5DA3D48413ACAA40FB81BAD40028E13.tmp' to 'F:/Unreal/AncientGame/Content/Character/AG_InventoryManager.uasset'
+[2017.06.18-05.02.35:240][782]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Character/AG_InventoryManager.uasset
+[2017.06.18-05.03.01:077][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/NewUserDefinedStruct" FILE="F:/Unreal/AncientGame/Content/Character/NewUserDefinedStruct.uasset" SILENT=true
+[2017.06.18-05.03.01:082][371]LogSavePackage: Save=2.25ms
+[2017.06.18-05.03.01:082][371]LogSavePackage: Moving 'F:/Unreal/AncientGame/Saved/NewUserDefinedStruct8963CF98415C6FA3388ADEA054E95340.tmp' to 'F:/Unreal/AncientGame/Content/Character/NewUserDefinedStruct.uasset'
+[2017.06.18-05.03.01:084][371]LogSavePackage:Display: Finished SavePackage F:/Unreal/AncientGame/Content/Character/NewUserDefinedStruct.uasset
+[2017.06.18-05.03.01:527][372]Cmd: QUIT_EDITOR
+[2017.06.18-05.03.01:848][372]LogExit: Preparing to exit.
+[2017.06.18-05.03.03:292][372]LogExit: Editor shut down
+[2017.06.18-05.03.03:292][372]LogExit: Transaction tracking system shut down
+[2017.06.18-05.03.04:481][372]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.18-05.03.04:481][372]LogExit: Object subsystem successfully closed.
+[2017.06.18-05.03.04:646][372]LogD3D11RHI: Shutdown
+[2017.06.18-05.03.04:646][372]LogD3D11RHI: CleanupD3DDevice
+[2017.06.18-05.03.04:764][372]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.18-05.03.05:452][372]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (506)
+[2017.06.18-05.03.05:460][372]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.06.18-05.03.05:460][372]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.06.18-05.03.05:475][372]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.06.18-05.03.05:476][372]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.06.18-05.03.05:484][372]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.06.18-05.03.05:484][372]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.06.18-05.03.05:484][372]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.06.18-05.03.05:491][372]LogDirectoryWatcher: A directory notification for 'E:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.18-05.03.05:493][372]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.06.18-05.03.05:493][372]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.06.18-05.03.05:493][372]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.06.18-05.03.05:500][372]LogDirectoryWatcher: A directory notification for 'F:/Unreal/AncientGame/Content/Collections/' was aborted.
+[2017.06.18-05.03.05:500][372]LogDirectoryWatcher: A directory notification for 'F:/Unreal/AncientGame/Content/Developers/Demigod/Collections/' was aborted.
+[2017.06.18-05.03.05:500][372]LogDirectoryWatcher: A directory notification for 'F:/Unreal/AncientGame/Saved/Collections/' was aborted.
+[2017.06.18-05.03.05:500][372]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.06.18-05.03.05:506][372]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.06.18-05.03.05:506][372]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.06.18-05.03.05:511][372]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.06.18-05.03.05:511][372]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.06.18-05.03.05:511][372]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.06.18-05.03.05:511][372]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.06.18-05.03.05:511][372]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.06.18-05.03.05:516][372]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.06.18-05.03.05:520][372]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.06.18-05.03.05:529][372]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.06.18-05.03.05:540][372]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.06.18-05.03.05:548][372]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.06.18-05.03.05:588][372]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.06.18-05.03.05:600][372]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.06.18-05.03.05:637][372]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.06.18-05.03.05:637][372]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.06.18-05.03.05:637][372]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.06.18-05.03.05:637][372]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.06.18-05.03.05:637][372]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.06.18-05.03.05:654][372]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.06.18-05.03.05:662][372]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.06.18-05.03.05:662][372]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.06.18-05.03.05:662][372]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.06.18-05.03.05:662][372]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.06.18-05.03.05:662][372]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.06.18-05.03.05:668][372]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.06.18-05.03.05:888][372]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.06.18-05.03.05:888][372]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.06.18-05.03.05:888][372]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.06.18-05.03.05:905][372]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.06.18-05.03.05:934][372]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.06.18-05.03.05:940][372]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.06.18-05.03.05:944][372]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.06.18-05.03.05:954][372]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.06.18-05.03.05:954][372]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.06.18-05.03.05:961][372]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.06.18-05.03.05:966][372]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.06.18-05.03.05:976][372]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.06.18-05.03.05:985][372]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.06.18-05.03.05:997][372]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.06.18-05.03.05:997][372]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.06.18-05.03.06:007][372]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.06.18-05.03.06:013][372]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.06.18-05.03.06:013][372]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.06.18-05.03.06:013][372]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.06.18-05.03.06:013][372]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.06.18-05.03.06:025][372]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.06.18-05.03.06:039][372]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.06.18-05.03.06:047][372]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.06.18-05.03.06:056][372]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.06.18-05.03.06:069][372]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.06.18-05.03.06:109][372]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.06.18-05.03.06:120][372]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.06.18-05.03.06:140][372]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.06.18-05.03.06:158][372]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.06.18-05.03.06:158][372]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.06.18-05.03.06:164][372]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.06.18-05.03.06:164][372]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.06.18-05.03.06:183][372]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.06.18-05.03.06:183][372]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.06.18-05.03.06:201][372]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.06.18-05.03.06:201][372]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.06.18-05.03.06:204][372]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.06.18-05.03.06:211][372]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.06.18-05.03.06:222][372]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.06.18-05.03.06:225][372]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.06.18-05.03.06:225][372]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.06.18-05.03.06:234][372]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.06.18-05.03.06:234][372]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.06.18-05.03.06:234][372]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.06.18-05.03.06:234][372]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.06.18-05.03.06:234][372]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.06.18-05.03.06:234][372]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.06.18-05.03.06:234][372]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.06.18-05.03.06:234][372]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.06.18-05.03.06:246][372]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.06.18-05.03.06:256][372]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.06.18-05.03.06:256][372]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.06.18-05.03.06:429][372]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.06.18-05.03.06:443][372]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.06.18-05.03.06:444][372]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.06.18-05.03.06:444][372]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.06.18-05.03.06:444][372]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.06.18-05.03.06:451][372]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.06.18-05.03.06:451][372]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.06.18-05.03.06:451][372]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.06.18-05.03.06:451][372]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.06.18-05.03.06:451][372]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.06.18-05.03.06:461][372]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.06.18-05.03.06:461][372]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.06.18-05.03.06:496][372]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.06.18-05.03.06:496][372]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.06.18-05.03.06:496][372]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.06.18-05.03.06:496][372]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.06.18-05.03.06:502][372]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.06.18-05.03.06:502][372]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.06.18-05.03.06:502][372]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.06.18-05.03.06:502][372]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.06.18-05.03.06:502][372]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.06.18-05.03.06:522][372]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.06.18-05.03.06:532][372]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.06.18-05.03.06:532][372]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.06.18-05.03.06:532][372]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.06.18-05.03.06:532][372]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.06.18-05.03.06:532][372]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.06.18-05.03.06:546][372]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.06.18-05.03.06:560][372]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.06.18-05.03.06:571][372]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.06.18-05.03.06:580][372]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.06.18-05.03.06:580][372]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.06.18-05.03.06:580][372]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.06.18-05.03.06:580][372]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.06.18-05.03.06:591][372]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.06.18-05.03.06:600][372]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.06.18-05.03.06:611][372]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.06.18-05.03.06:624][372]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.06.18-05.03.06:624][372]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.06.18-05.03.06:635][372]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.06.18-05.03.06:636][372]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.06.18-05.03.06:650][372]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.06.18-05.03.06:650][372]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.06.18-05.03.06:650][372]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.06.18-05.03.06:750][372]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.06.18-05.03.06:854][372]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.06.18-05.03.06:872][372]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.06.18-05.03.06:883][372]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.06.18-05.03.06:883][372]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.06.18-05.03.06:883][372]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.06.18-05.03.06:891][372]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.06.18-05.03.06:899][372]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.06.18-05.03.06:910][372]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.06.18-05.03.06:910][372]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.06.18-05.03.06:910][372]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.06.18-05.03.06:919][372]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (192)
+[2017.06.18-05.03.06:923][372]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.06.18-05.03.06:924][372]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.06.18-05.03.06:924][372]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.06.18-05.03.06:952][372]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.06.18-05.03.06:952][372]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.06.18-05.03.06:967][372]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.06.18-05.03.06:975][372]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.06.18-05.03.06:997][372]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.06.18-05.03.07:021][372]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.06.18-05.03.07:032][372]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.06.18-05.03.07:032][372]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.06.18-05.03.07:032][372]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.06.18-05.03.07:056][372]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.06.18-05.03.07:057][372]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.06.18-05.03.07:061][372]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.06.18-05.03.07:076][372]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.06.18-05.03.07:076][372]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.06.18-05.03.07:076][372]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.06.18-05.03.07:076][372]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.06.18-05.03.07:076][372]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.06.18-05.03.07:199][372]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.18-05.03.07:199][372]LogDirectoryWatcher: A directory notification for 'F:/Unreal/AncientGame/Content/' was aborted.
+[2017.06.18-05.03.07:200][372]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.18-05.03.07:203][372]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.06.18-05.03.07:203][372]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.06.18-05.03.07:203][372]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.06.18-05.03.07:203][372]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.06.18-05.03.07:216][372]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.06.18-05.03.07:231][372]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.06.18-05.03.07:231][372]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.06.18-05.03.07:238][372]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.06.18-05.03.07:238][372]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.06.18-05.03.07:336][372]LogDerivedDataCache: Shutdown
+[2017.06.18-05.03.07:336][372]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.06.18-05.03.07:336][372]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.06.18-05.03.07:375][372]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.06.18-05.03.07:381][372]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.06.18-05.03.07:385][372]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.06.18-05.03.07:393][372]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.06.18-05.03.07:393][372]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.06.18-05.03.07:393][372]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.06.18-05.03.07:397][372]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.06.18-05.03.07:400][372]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.06.18-05.03.07:400][372]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.06.18-05.03.07:400][372]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.06.18-05.03.07:400][372]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.06.18-05.03.07:405][372]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.06.18-05.03.07:406][372]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.06.18-05.03.07:406][372]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.18-05.03.07:406][372]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.18-05.03.07:406][372]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.18-05.03.07:406][372]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.18-05.03.07:426][372]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.18-05.03.07:443][372]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.18-05.03.07:449][372]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.18-05.03.07:449][372]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B977A02FA-4DF5-DBB8-162E-B1968BA15E99%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=224389a8446276377c334a9fae284dd9%7Cdec2ad3a27214d31ab4ddb53d31c27e2%7C6b94cbee-0175-4c3a-94dd-08bafa0c491f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.18-05.03.07:460][372]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.18-05.03.07:523][372]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.18-05.03.07:538][372]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.18-05.03.07:549][372]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.18-05.03.07:549][372]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.18-05.03.07:549][372]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.18-05.03.07:564][372]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.18-05.03.07:578][372]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.18-05.03.07:578][372]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.18-05.03.07:590][372]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.18-05.03.07:590][372]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.18-05.03.07:590][372]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.18-05.03.07:590][372]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.18-05.03.07:597][372]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.18-05.03.07:600][372]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.18-05.03.07:600][372]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.18-05.03.07:620][372]LogExit: Exiting.
+[2017.06.18-05.03.07:624][372]Log file closed, 06/18/17 10:33:07
